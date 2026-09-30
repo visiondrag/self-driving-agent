@@ -1,0 +1,28 @@
+order: 3
+title: Perception, Occupancy & Mapping
+summary: BEV/sparse 3D detection, occupancy, online HD-map construction, tracking, sensor fusion.
+sections:
+  - name: BEV & Multi-camera 3D Detection
+    papers:
+      - {id: "2008.05711", title: "Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D", venue: "ECCV'20", note: "LSS"}
+      - {id: "2203.17270", title: "BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers", venue: "ECCV'22", code: "https://github.com/fundamentalvision/BEVFormer"}
+      - {id: "2206.01256", title: "PETR: Position Embedding Transformation for Multi-View 3D Object Detection", venue: "ECCV'22"}
+      - {id: "2112.11790", title: "BEVDet: High-performance Multi-camera 3D Object Detection in Bird-Eye-View"}
+      - {id: "2205.13542", title: "BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation", venue: "ICRA'23", note: "MIT"}
+      - {id: "2211.10581", title: "BEVFusion: A Simple and Robust LiDAR-Camera Fusion Framework", venue: "NeurIPS'22", note: "PKU/Alibaba"}
+      - {id: "2303.11926", title: "Exploring Object-Centric Temporal Modeling for Efficient Multi-View 3D Object Detection", venue: "ICCV'23", note: "StreamPETR"}
+      - {id: "2308.09244", title: "SparseBEV: High-Performance Sparse 3D Object Detection from Multi-Camera Videos", venue: "ICCV'23"}
+  - name: 3D Occupancy
+    papers:
+      - {id: "2304.14365", title: "Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving", venue: "NeurIPS'23 D&B"}
+      - {id: "2303.09551", title: "SurroundOcc: Multi-Camera 3D Occupancy Prediction for Autonomous Driving", venue: "ICCV'23"}
+      - {id: "2304.05316", title: "OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception", venue: "ICCV'23"}
+      - {id: "2302.07817", title: "VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion", venue: "CVPR'23"}
+      - {id: "2402.10804", title: "GaussianFormer: Scene as Gaussians for Vision-Based 3D Semantic Occupancy Prediction", venue: "ECCV'24"}
+      - {id: "2306.02851", title: "Scene as Occupancy", venue: "ICCV'23", note: "OccNet / OpenOcc"}
+  - name: Online HD-map / Lane Topology
+    papers:
+      - {id: "2208.14437", title: "MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction", venue: "ICLR'23", code: "https://github.com/hustvl/MapTR"}
+      - {id: "2308.05736", title: "MapTRv2: An End-to-End Framework for Online Vectorized HD Map Construction"}
+      - {id: "2304.10440", title: "Topology Reasoning for Driving Scenes", note: "OpenLane-V2 / TopoNet"}
+      - {id: "2203.11089", title: "PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark", venue: "ECCV'22"}

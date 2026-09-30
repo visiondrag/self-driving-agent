@@ -1,0 +1,74 @@
+order: 6
+title: Vision-Language-Action (VLA)
+summary: VLM backbones that output driving actions/trajectories directly - dual-system, reasoning-VLA, RL-tuned, world-model-augmented.
+intro: |
+  VLA models extend a vision-language backbone with an action head or action tokens.
+  2025-2026 trends: chain-of-thought before action, RL fine-tuning (GRPO), dual fast/slow systems,
+  latency-aware "action-only" variants, and unifying VLA with world models ("world-action models").
+sections:
+  - name: Foundational VLAs for Driving
+    papers:
+      - {id: "2410.23262", title: "EMMA: End-to-End Multimodal Model for Autonomous Driving", org: Waymo}
+      - {id: "2503.23463", title: "OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model"}
+      - {id: "2503.19755", title: "ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation", note: "Bench2Drive SOTA at release"}
+      - {id: "2503.09594", title: "SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment", venue: "CVPR'25", note: "CARLA Leaderboard 2.0"}
+      - {id: "2506.13757", title: "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning"}
+      - {id: "2506.08052", title: "ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving"}
+      - {id: "2505.23757", title: "Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models"}
+      - {id: "2505.16278", title: "DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving"}
+      - {id: "2505.19381", title: "DiffVLA: Vision-Language Guided Diffusion Planning for Autonomous Driving"}
+      - {id: "2506.11234", title: "Poutine: Vision-Language-Trajectory Pre-Training and Reinforcement Learning Post-Training Enable Robust End-to-End Autonomous Driving", note: "Waymo Open E2E challenge winner"}
+  - name: Reasoning-first / Chain-of-Thought VLAs
+    papers:
+      - {id: "2511.00088", title: "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail", org: NVIDIA}
+      - {id: "2503.07608", title: "AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via Reinforcement Learning and Reasoning"}
+      - {id: "2505.17685", title: "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving", note: "FSDrive; visual CoT"}
+      - {id: "2506.18234", title: "Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning"}
+      - {id: "2505.00284", title: "LightEMMA: Lightweight End-to-End Multimodal Model for Autonomous Driving"}
+  - name: World-Action Models (VLA + World Model)
+    papers:
+      - {id: "2510.12796", title: "DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving"}
+      - {id: "2506.24113", title: "Epona: Autoregressive Diffusion World Model for Autonomous Driving", venue: "ICCV'25"}
+  - name: 2026 Frontier (from arXiv scan)
+    desc: Titles below came from a web scan of recent arXiv results; the verifier will flag any id/title mismatch.
+    papers:
+      - {id: "2512.13636", title: "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning"}
+      - {id: "2602.08440", title: "SteerVLA: Steering Vision-Language-Action Models in Long-Tail Driving Scenarios"}
+      - {id: "2602.13329", title: "HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving"}
+      - {id: "2603.14851", title: "AUTOMOT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving"}
+      - {id: "2603.25766", title: "ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models"}
+      - {id: "2606.08684", title: "BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving"}
+      - {id: "2606.12396", title: "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving"}
+      - {id: "2609.00111", title: "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving"}
+      - {id: "2605.27038", title: "TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving"}
+  - name: VLA / Reasoning Surveys & Safety
+    papers:
+      - {id: "2506.24044", title: "A Survey on Vision-Language-Action Models for Autonomous Driving"}
+      - {id: "2609.01659", title: "Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving"}
+      - {id: "2604.23775", title: "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms"}
+  - name: Reasoning & RL VLAs (late 2025 - 2026)
+    papers:
+      - {id: "2604.15308", title: "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework"}
+      - {id: "2507.12911", title: "LaViPlan: Language-Guided Visual Path Planning with RLVR", note: "RL with verifiable rewards"}
+      - {id: "2511.22532", title: "CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving"}
+      - {id: "2512.14044", title: "OmniDrive-R1: Reinforcement-driven Interleaved Multi-modal Chain-of-Thought for Trustworthy Vision-Language Autonomous Driving"}
+      - {id: "2605.23270", title: "ChainFlow-VLA: Causal Flow Planning with Vision-Language Models", note: "Reports 94.85 on NAVSIM v1, human-level 94.8"}
+      - {id: "2607.14727", title: "WorkDrive: Roadwork Chain of Causation for Autonomous Driving"}
+      - {id: "2609.34387", title: "CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving"}
+      - {id: "2609.15169", title: "GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving"}
+  - name: Efficient VLAs (distillation, diffusion decoding, dual-system)
+    papers:
+      - {id: "2601.21288", title: "Drive-KD: Multi-Teacher Distillation for VLMs in Autonomous Driving"}
+      - {id: "2608.01035", title: "WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA"}
+      - {id: "2605.23163", title: "Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving", note: "200+ tok/s on one H100; WOD-E2E"}
+      - {id: "2608.30144", title: "Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving", note: "Orion-Lite: 0.1B vision-only student beats 7B teacher on Bench2Drive"}
+      - {id: "2607.08375", title: "WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving"}
+      - {id: "2606.24051", title: "DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model"}
+  - name: Occupancy-/Geometry-aware VLAs & Unified 4D MLLMs
+    papers:
+      - {id: "2512.12799", title: "DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning"}
+      - {id: "2601.06474", title: "SparseOccVLA: Bridging Occupancy and Vision-Language Models via Sparse Queries for Unified 4D Scene Understanding and Planning"}
+  - name: VLA + World Model (see also World Models)
+    papers:
+      - {id: "2604.09059", title: "Learning Vision-Language-Action World Models for Autonomous Driving", note: "VLA-World: pretrain, SFT, GRPO"}
+      - {id: "2512.10226", title: "Latent Chain-of-Thought World Modeling for End-to-End Driving"}

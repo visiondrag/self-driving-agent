@@ -1,0 +1,24 @@
+order: 12
+title: Safety, Robustness & Trust
+summary: Adversarial/attack surfaces, distribution shift, uncertainty, explainability, and safety of LLM/VLA drivers.
+sections:
+  - name: Safety of VLM/VLA drivers
+    papers:
+      - {id: "2604.23775", title: "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms"}
+      - {id: "2501.04003", title: "Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data, and Metric Perspectives"}
+  - name: Sim-based Safety Testing
+    papers:
+      - {id: "2404.07762", title: "NeuroNCAP: Photorealistic Closed-loop Safety Testing for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2405.14062", title: "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles", venue: "CVPR'24"}
+  - name: Explainability
+    papers:
+      - {id: "1807.11546", title: "Textual Explanations for Self-Driving Vehicles", venue: "ECCV'18"}
+      - {id: "2210.14222", title: "PlanT: Explainable Planning Transformers via Object-Level Representations", venue: "CoRL'22"}
+      - {id: "2402.10828", title: "RAG-Driver: Generalisable Driving Explanations with Retrieval-Augmented In-Context Learning in Multi-Modal Large Language Model", venue: "RSS'24"}
+  - name: Attacks & Robustness (2024-2026)
+    papers:
+      - {id: "2411.18275", title: "Visual Adversarial Attack on Vision-Language Models for Autonomous Driving"}
+      - {id: "2605.29114", title: "ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving", note: "Slowdown / premature-termination attacks on CoT"}
+      - {id: "2605.00880", title: "Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving"}
+      - {id: "2607.05783", title: "Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective"}
+      - {id: "2605.18059", title: "Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations"}

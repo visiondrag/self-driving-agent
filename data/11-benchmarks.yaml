@@ -1,0 +1,43 @@
+order: 11
+title: Benchmarks & Evaluation
+summary: Open-loop, pseudo-closed-loop and closed-loop evaluation of E2E planners, VLMs/VLAs, and generative world models.
+intro: |
+  **Reading guide.** nuScenes open-loop L2/collision is a weak signal (see AD-MLP and Ego-Status papers).
+  Prefer NAVSIM (pseudo-closed-loop, real data), Bench2Drive / CARLA Leaderboard (closed-loop, sim), and
+  nuPlan / Waymax (log-replay closed-loop). A 2026 study explicitly correlates NAVSIM and Bench2Drive
+  ([arXiv 2605.00066](https://arxiv.org/abs/2605.00066)).
+sections:
+  - name: End-to-End Planning Benchmarks
+    papers:
+      - {id: "2406.15349", title: "NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking", venue: "NeurIPS'24 D&B", code: "https://github.com/autonomousvision/navsim", note: "PDMS metric"}
+      - {id: "2506.04218", title: "Pseudo-Simulation for Autonomous Driving", venue: "CoRL'25", note: "NAVSIM v2 / EPDMS"}
+      - {id: "2406.03877", title: "Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving", venue: "NeurIPS'24 D&B", note: "44 scenarios, CARLA v2"}
+      - {id: "2412.09647", title: "Bench2Drive-R: Turning Real World Data into Reactive Closed-Loop Autonomous Driving Benchmark by Generative Model"}
+      - {id: "2605.00066", title: "Do Open-Loop Metrics Predict Closed-Loop Driving? A Cross-Benchmark Correlation Study of NAVSIM and Bench2Drive"}
+      - {id: "2608.20111", title: "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms"}
+      - {id: "2305.10430", title: "Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes"}
+      - {id: "2306.07962", title: "Parting with Misconceptions about Learning-based Vehicle Motion Planning", venue: "CoRL'23"}
+  - name: VLM / VLA Evaluation
+    papers:
+      - {id: "2501.04003", title: "Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data, and Metric Perspectives", note: "DriveBench"}
+      - {id: "2312.14115", title: "LingoQA: Visual Question Answering for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2404.10595", title: "Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases", note: "CODA-LM"}
+      - {id: "2305.14836", title: "NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario"}
+  - name: World-model / Generation Evaluation
+    papers:
+      - {id: "2601.01528", title: "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving"}
+  - name: Trajectory Prediction / Sim-agents Challenges
+    desc: "Annual challenges worth tracking (leaderboards, not single papers): Waymo Open Dataset Challenges (motion, sim agents, E2E driving), Argoverse 2 challenges, CARLA Autonomous Driving Leaderboard, nuPlan challenge, CVPR Autonomous Grand Challenge (OpenDriveLab)."
+    papers:
+      - {url: "https://waymo.com/open/challenges/", title: "Waymo Open Dataset Challenges", org: Waymo, venue: Leaderboard, year: 2025}
+      - {url: "https://leaderboard.carla.org/", title: "CARLA Autonomous Driving Leaderboard", venue: Leaderboard, year: 2025}
+      - {url: "https://opendrivelab.com/challenge2025/", title: "CVPR Autonomous Grand Challenge (OpenDriveLab)", venue: Leaderboard, year: 2025}
+  - name: New Benchmarks (2025-2026)
+    papers:
+      - {id: "2604.01259", title: "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models", code: "https://github.com/Thinklab-SJTU/Bench2Drive-VL"}
+      - {id: "2605.18059", title: "Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations"}
+      - {id: "2509.23922", title: "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation"}
+      - {id: "2606.12706", title: "VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving"}
+      - {id: "2605.31572", title: "nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving"}
+      - {id: "2510.26125", title: "WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios", org: Waymo, note: "Metric: Rater Feedback Score; 2025 challenge won by Poutine"}
+      - {id: "2412.05337", title: "ACT-Bench: Towards Action Controllable World Models for Autonomous Driving"}

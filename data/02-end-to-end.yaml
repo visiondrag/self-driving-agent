@@ -1,0 +1,63 @@
+order: 2
+title: End-to-End Driving
+summary: Sensors-to-trajectory/control models - modular-differentiable, imitation, diffusion, BEV/sparse, closed-loop CARLA.
+intro: |
+  End-to-end (E2E) driving maps raw sensors to plans or controls with a jointly trained network.
+  Benchmarks used: nuScenes open-loop (caution, see [Benchmarks](11-benchmarks.md)), NAVSIM, Bench2Drive, CARLA Leaderboard.
+sections:
+  - name: Foundations (pre-2021)
+    papers:
+      - {id: "1604.07316", title: "End to End Learning for Self-Driving Cars", venue: NVIDIA, note: "PilotNet-style behavior cloning"}
+      - {id: "1812.03079", title: "ChauffeurNet: Learning to Drive by Imitating the Best and Synthesizing the Worst", venue: "RSS'19", org: Waymo}
+      - {id: "1912.12294", title: "Learning by Cheating", venue: "CoRL'19", code: "https://github.com/dianchen96/LearningByCheating", note: "Privileged-agent distillation"}
+  - name: Sensor-fusion Imitation (CARLA)
+    papers:
+      - {id: "2205.15997", title: "TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving", venue: TPAMI'22, code: "https://github.com/autonomousvision/transfuser"}
+      - {id: "2104.09224", title: "Multi-Modal Fusion Transformer for End-to-End Autonomous Driving", venue: "CVPR'21", code: "https://github.com/autonomousvision/transfuser", note: "TransFuser"}
+      - {id: "2207.14024", title: "Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer", venue: "CoRL'22", note: "InterFuser"}
+      - {id: "2206.08129", title: "Trajectory-guided Control Prediction for End-to-end Autonomous Driving: A Simple yet Strong Baseline", venue: "NeurIPS'22", code: "https://github.com/OpenPerceptionX/TCP", note: "TCP"}
+      - {id: "2210.14222", title: "PlanT: Explainable Planning Transformers via Object-Level Representations", venue: "CoRL'22"}
+      - {id: "2305.06242", title: "Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving", venue: "CVPR'23"}
+      - {id: "2308.00398", title: "DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving", venue: "ICCV'23"}
+      - {id: "2306.07957", title: "Hidden Biases of End-to-End Driving Models", venue: "ICCV'23", note: "TF++"}
+      - {id: "2210.07729", title: "Model-Based Imitation Learning for Urban Driving", venue: "NeurIPS'22", org: Wayve, note: "MILE"}
+      - {id: "2406.10165", title: "CarLLaVA: Vision language models for camera-only closed-loop driving", org: Wayve, note: "CARLA Leaderboard 2.0 winner"}
+  - name: Planning-oriented / Unified Frameworks
+    papers:
+      - {id: "2212.10156", title: "Planning-oriented Autonomous Driving", venue: "CVPR'23 Best Paper", code: "https://github.com/OpenDriveLab/UniAD", note: "UniAD"}
+      - {id: "2303.12077", title: "VAD: Vectorized Scene Representation for Efficient Autonomous Driving", venue: "ICCV'23", code: "https://github.com/hustvl/VAD"}
+      - {id: "2402.13243", title: "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning"}
+      - {id: "2207.07601", title: "ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning", venue: "ECCV'22"}
+      - {id: "2406.06978", title: "Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation", note: "NAVSIM/CVPR'24 challenge winner"}
+      - {id: "2402.16720", title: "Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving in CARLA-v2", venue: "ECCV'24"}
+      - {id: "2406.03877", title: "Bench2Drive: Towards Multi-Ability Benchmarking of Closed-Loop End-To-End Autonomous Driving", venue: "NeurIPS'24 D&B", code: "https://github.com/Thinklab-SJTU/Bench2Drive"}
+      - {id: "2406.08481", title: "Enhancing End-to-End Autonomous Driving with Latent World Model", venue: "ICLR'25", note: "LAW"}
+      - {id: "2312.03031", title: "Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?", venue: "CVPR'24", code: "https://github.com/NVlabs/BEV-Planner"}
+      - {id: "2305.10430", title: "Rethinking the Open-Loop Evaluation of End-to-End Autonomous Driving in nuScenes", note: "AD-MLP: an MLP on ego state matches SOTA"}
+      - {id: "2410.13864", title: "DriveTransformer: Unified Transformer for Scalable End-to-End Autonomous Driving", venue: "ICLR'25"}
+      - {id: "2401.03929", title: "PARA-Drive: Parallelized Architecture for Real-time Autonomous Driving", venue: "CVPR'24"}
+  - name: Sparse / Vectorized E2E
+    papers:
+      - {id: "2405.19620", title: "SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation", code: "https://github.com/swc-17/SparseDrive"}
+      - {id: "2402.11502", title: "GenAD: Generative End-to-End Autonomous Driving", venue: "ECCV'24"}
+  - name: Generative Planners (Diffusion / Flow)
+    papers:
+      - {id: "2411.15139", title: "DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving", venue: "CVPR'25", code: "https://github.com/hustvl/DiffusionDrive"}
+      - {id: "2503.05689", title: "GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving", venue: "CVPR'25"}
+      - {id: "2501.15564", title: "Diffusion-Based Planning for Autonomous Driving with Flexible Guidance", venue: "ICLR'25", note: "Diffusion Planner"}
+      - {id: "2505.15111", title: "iPad: Iterative Proposal-centric End-to-End Autonomous Driving"}
+  - name: Flow Matching & Diffusion Planners (2025-2026)
+    papers:
+      - {id: "2509.21961", title: "FlowDrive: moderated flow matching with data balancing for trajectory planning"}
+      - {id: "2510.26292", title: "Beyond Imitation: Constraint-Aware Trajectory Generation with Flow Matching For End-to-End Autonomous Driving"}
+      - {id: "2511.18729", title: "GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving"}
+      - {id: "2512.06112", title: "WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching for Autonomous Driving"}
+      - {id: "2604.12656", title: "FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving"}
+      - {id: "2606.11019", title: "Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving"}
+      - {id: "2606.24231", title: "FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning"}
+  - name: Recent E2E Architectures (2025-2026)
+    papers:
+      - {id: "2508.11488", title: "Perception in Plan: Coupled Perception and Planning for End-to-End Autonomous Driving"}
+      - {id: "2511.17150", title: "DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving"}
+      - {id: "2605.31116", title: "NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving"}
+      - {id: "2608.20111", title: "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms", note: "Survey"}

@@ -1,0 +1,30 @@
+order: 7
+title: Reasoning, RL & Post-training
+summary: Reinforcement learning for driving policies, RL post-training of VLA/VLM, reward design, imitation-vs-RL, closed-loop training.
+sections:
+  - name: RL Driving Policies (simulation)
+    papers:
+      - {id: "2108.08265", title: "End-to-End Urban Driving by Imitating a Reinforcement Learning Coach", venue: "ICCV'21", code: "https://github.com/zhejz/carla-roach", note: "Roach"}
+      - {id: "2402.16720", title: "Think2Drive: Efficient Reinforcement Learning by Thinking in Latent World Model for Quasi-Realistic Autonomous Driving in CARLA-v2", venue: "ECCV'24"}
+      - {id: "2504.17838", title: "CaRL: Learning Scalable Planning Policies with Simple Rewards", venue: "CoRL'25", note: "Simple route-completion reward scales"}
+      - {id: "2502.13144", title: "RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning", note: "RL in a Gaussian-splat digital twin"}
+  - name: RL Post-training of VLM/VLA
+    papers:
+      - {id: "2503.07608", title: "AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via Reinforcement Learning and Reasoning", note: "First GRPO for driving planning"}
+      - {id: "2506.13757", title: "AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning"}
+      - {id: "2506.08052", title: "ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving"}
+      - {id: "2506.18234", title: "Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning"}
+      - {id: "2512.13636", title: "MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning"}
+      - {id: "2511.00088", title: "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail"}
+  - name: 2026 RL & World-model-based Policy Learning
+    papers:
+      - {id: "2604.15308", title: "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework"}
+      - {id: "2507.12911", title: "LaViPlan: Language-Guided Visual Path Planning with RLVR"}
+      - {id: "2603.24587", title: "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving"}
+      - {id: "2512.10226", title: "Latent Chain-of-Thought World Modeling for End-to-End Driving", note: "Closed-loop RL post-training"}
+      - {id: "2606.08525", title: "DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving"}
+  - name: Reasoning Studies & Surveys
+    papers:
+      - {id: "2603.11093", title: "A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms"}
+      - {id: "2609.01659", title: "Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving"}
+      - {id: "2606.12706", title: "VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving"}
