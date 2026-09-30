@@ -22,3 +22,14 @@ sections:
     papers:
       - {id: "2208.02797", title: "Vision-Centric BEV Perception: A Survey", venue: TPAMI'24}
       - {id: "2205.09743", title: "Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe", venue: TPAMI'23}
+  - name: Recent Surveys (2025-2026)
+    papers:
+      - {id: "2512.16760", title: "Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future"}
+      - {id: "2603.11093", title: "A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms"}
+      - {id: "2609.01659", title: "Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving"}
+      - {id: "2604.23775", title: "Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms"}
+      - {id: "2608.20111", title: "Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms"}
+      - {id: "2502.10498", title: "The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey"}
+      - {id: "2504.00911", title: "Foundation Models for Autonomous Driving Systems: An Initial Roadmap"}
+      - {id: "2506.11526", title: "Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis"}
+      - {id: "2510.16732", title: "A Comprehensive Survey on World Models for Embodied AI", note: "General embodied AI, includes driving"}

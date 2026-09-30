@@ -2,7 +2,7 @@
 
 <!-- generated from data/09-simulation.yaml; do not edit by hand -->
 
-**23 entries.** Add papers by editing `data/09-simulation.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**37 entries.** Add papers by editing `data/09-simulation.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## Simulators & Platforms
 
@@ -46,4 +46,28 @@
 | [ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles](https://arxiv.org/abs/2405.14062) | 2024 | CVPR'24 |  |  |
 | [SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic](https://arxiv.org/abs/2403.17933) | 2024 | ECCV'24 |  |  |
 | [TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios](https://arxiv.org/abs/2210.06609) | 2022 | ICRA'23 |  |  |
+
+## 3DGS Closed-loop Simulation (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [Agent-driven Long-tail Simulation for Autonomous Driving](https://arxiv.org/abs/2607.04331) | 2026 |  |  |  |
+| [Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation](https://arxiv.org/abs/2607.04770) | 2026 |  |  |  |
+| [ConFixGS: Learning to Fix Feedforward 3D Gaussian Splatting with Confidence-Aware Diffusion Priors in Driving Scenes](https://arxiv.org/abs/2605.09688) | 2026 |  |  |  |
+| [DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing](https://arxiv.org/abs/2608.01761) | 2026 |  |  |  |
+| [Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation](https://arxiv.org/abs/2605.21032) | 2026 |  |  |  |
+| [DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation](https://arxiv.org/abs/2509.23922) | 2025 |  |  |  |
+| [GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting](https://arxiv.org/abs/2507.19451) | 2025 |  |  |  |
+
+## LLM-guided Scenario Generation (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [Safety-Centered Scenario Generation for Autonomous Vehicles](https://arxiv.org/abs/2603.03574) | 2026 |  |  |  |
+| [Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation](https://arxiv.org/abs/2609.27296) | 2026 |  |  |  |
+| [Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis](https://arxiv.org/abs/2506.11526) | 2025 |  |  | Survey |
+| [From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios](https://arxiv.org/abs/2502.02145) | 2025 |  |  |  |
+| [Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge](https://arxiv.org/abs/2511.20726) | 2025 |  |  |  |
+| [LLM-attacker: Enhancing Closed-loop Adversarial Scenario Generation for Autonomous Driving with Large Language Models](https://arxiv.org/abs/2501.15850) | 2025 |  |  |  |
+| [Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models](https://arxiv.org/abs/2505.00972) | 2025 |  |  |  |
 

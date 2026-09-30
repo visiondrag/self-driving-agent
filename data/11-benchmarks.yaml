@@ -32,3 +32,12 @@ sections:
       - {url: "https://waymo.com/open/challenges/", title: "Waymo Open Dataset Challenges", org: Waymo, venue: Leaderboard, year: 2025}
       - {url: "https://leaderboard.carla.org/", title: "CARLA Autonomous Driving Leaderboard", venue: Leaderboard, year: 2025}
       - {url: "https://opendrivelab.com/challenge2025/", title: "CVPR Autonomous Grand Challenge (OpenDriveLab)", venue: Leaderboard, year: 2025}
+  - name: New Benchmarks (2025-2026)
+    papers:
+      - {id: "2604.01259", title: "Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models", code: "https://github.com/Thinklab-SJTU/Bench2Drive-VL"}
+      - {id: "2605.18059", title: "Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations"}
+      - {id: "2509.23922", title: "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation"}
+      - {id: "2606.12706", title: "VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving"}
+      - {id: "2605.31572", title: "nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving"}
+      - {id: "2510.26125", title: "WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios", org: Waymo, note: "Metric: Rater Feedback Score; 2025 challenge won by Poutine"}
+      - {id: "2412.05337", title: "ACT-Bench: Towards Action Controllable World Models for Autonomous Driving"}

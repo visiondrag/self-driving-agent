@@ -33,3 +33,21 @@ sections:
       - {id: "2210.06609", title: "TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios", venue: "ICRA'23"}
       - {id: "2403.17933", title: "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic", venue: "ECCV'24"}
       - {id: "2405.14062", title: "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles", venue: "CVPR'24"}
+  - name: 3DGS Closed-loop Simulation (2025-2026)
+    papers:
+      - {id: "2605.21032", title: "Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation"}
+      - {id: "2605.09688", title: "ConFixGS: Learning to Fix Feedforward 3D Gaussian Splatting with Confidence-Aware Diffusion Priors in Driving Scenes"}
+      - {id: "2608.01761", title: "DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing"}
+      - {id: "2607.04770", title: "Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation"}
+      - {id: "2507.19451", title: "GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting"}
+      - {id: "2607.04331", title: "Agent-driven Long-tail Simulation for Autonomous Driving"}
+      - {id: "2509.23922", title: "DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation"}
+  - name: LLM-guided Scenario Generation (2025-2026)
+    papers:
+      - {id: "2502.02145", title: "From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios"}
+      - {id: "2501.15850", title: "LLM-attacker: Enhancing Closed-loop Adversarial Scenario Generation for Autonomous Driving with Large Language Models"}
+      - {id: "2505.00972", title: "Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models"}
+      - {id: "2511.20726", title: "Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge"}
+      - {id: "2603.03574", title: "Safety-Centered Scenario Generation for Autonomous Vehicles"}
+      - {id: "2609.27296", title: "Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation"}
+      - {id: "2506.11526", title: "Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis", note: "Survey"}

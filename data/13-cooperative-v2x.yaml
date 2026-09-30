@@ -11,3 +11,13 @@ sections:
       - {id: "2203.10638", title: "V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer", venue: "ECCV'22"}
       - {id: "2404.00717", title: "End-to-End Autonomous Driving through V2X Cooperation", venue: "AAAI'25", note: "UniV2X"}
       - {id: "2503.08683", title: "CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving"}
+  - name: Recent V2X + VLM / World-model Work (2024-2026)
+    papers:
+      - {id: "2405.03971", title: "Unified End-to-End V2X Cooperative Autonomous Driving"}
+      - {id: "2504.13406", title: "LangCoop: Collaborative Driving with Language"}
+      - {id: "2506.21041", title: "SEAL: Vision-Language Model-Based Safe End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling", note: "Earlier title V2X-REALM"}
+      - {id: "2507.21610", title: "Research Challenges and Progress in the End-to-End V2X Cooperative Autonomous Driving Competition"}
+      - {id: "2608.21032", title: "Roadside-Cooperative Autonomous Driving: From Data Platform to Vision-Language End-to-End Reasoning"}
+      - {id: "2608.07621", title: "CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models"}
+      - {id: "2609.37098", title: "V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving"}
+      - {id: "2606.13840", title: "Multi-Agent Embodied Autonomous Driving (MAEAD): From V2X Information Exchange to Shared World Models"}

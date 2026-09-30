@@ -2,7 +2,7 @@
 
 <!-- generated from data/07-reasoning-rl.yaml; do not edit by hand -->
 
-**10 entries.** Add papers by editing `data/07-reasoning-rl.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**18 entries.** Add papers by editing `data/07-reasoning-rl.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## RL Driving Policies (simulation)
 
@@ -23,4 +23,22 @@
 | [Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning](https://arxiv.org/abs/2506.18234) | 2025 |  |  |  |
 | [MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning](https://arxiv.org/abs/2512.13636) | 2025 |  |  |  |
 | [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) | 2025 |  |  |  |
+
+## 2026 RL & World-model-based Policy Learning
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving](https://arxiv.org/abs/2603.24587) | 2026 |  |  |  |
+| [DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving](https://arxiv.org/abs/2606.08525) | 2026 |  |  |  |
+| [RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework](https://arxiv.org/abs/2604.15308) | 2026 |  |  |  |
+| [Latent Chain-of-Thought World Modeling for End-to-End Driving](https://arxiv.org/abs/2512.10226) | 2025 |  |  | Closed-loop RL post-training |
+| [LaViPlan: Language-Guided Visual Path Planning with RLVR](https://arxiv.org/abs/2507.12911) | 2025 |  |  |  |
+
+## Reasoning Studies & Surveys
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms](https://arxiv.org/abs/2603.11093) | 2026 |  |  |  |
+| [Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving](https://arxiv.org/abs/2609.01659) | 2026 |  |  |  |
+| [VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving](https://arxiv.org/abs/2606.12706) | 2026 |  |  |  |
 

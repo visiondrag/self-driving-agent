@@ -6,7 +6,7 @@ Two overlapping lines: (1) generative world models that predict future observati
 used as simulators and data engines; (2) world-action models that use prediction as a training signal for planners.
 Evaluation: [DrivingGen](https://arxiv.org/abs/2601.01528) and others in [Benchmarks](11-benchmarks.md).
 
-**29 entries.** Add papers by editing `data/08-world-models.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**37 entries.** Add papers by editing `data/08-world-models.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## Video World Models
 
@@ -58,4 +58,27 @@ Scanned from recent arXiv results; verify on first run.
 | [Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation](https://arxiv.org/abs/2607.06516) | 2026 |  |  |  |
 | [SimWAM: A Simple World Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2608.07468) | 2026 |  |  |  |
 | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving](https://arxiv.org/abs/2608.20974) | 2026 |  |  |  |
+
+## Occupancy World Models (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [COME: Adding Scene-Centric Forecasting Control to Occupancy World Model](https://arxiv.org/abs/2506.13260) | 2025 |  |  |  |
+| [Vision-Centric 4D Occupancy Forecasting and Planning via Implicit Residual World Models](https://arxiv.org/abs/2510.16729) | 2025 |  |  |  |
+| [An Efficient Occupancy World Model via Decoupled Dynamic Flow and Image-assisted Training](https://arxiv.org/abs/2412.13772) | 2024 |  |  |  |
+
+## World-Action Models for E2E Driving (2026, cont.)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving](https://arxiv.org/abs/2603.24587) | 2026 |  |  |  |
+| [GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving](https://arxiv.org/abs/2606.16274) | 2026 |  |  |  |
+| [Learning Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2604.09059) | 2026 |  |  |  |
+| [SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2609.03602) | 2026 |  |  |  |
+
+## World-Model Evaluation
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [ACT-Bench: Towards Action Controllable World Models for Autonomous Driving](https://arxiv.org/abs/2412.05337) | 2024 |  |  |  |
 

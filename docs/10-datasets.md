@@ -2,7 +2,7 @@
 
 <!-- generated from data/10-datasets.yaml; do not edit by hand -->
 
-**23 entries.** Add papers by editing `data/10-datasets.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**30 entries.** Add papers by editing `data/10-datasets.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## Large-scale Sensor Datasets
 
@@ -51,4 +51,16 @@
 |---|---|---|---|---|
 | [Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases](https://arxiv.org/abs/2404.10595) | 2024 |  |  | CODA-LM |
 | [CODA: A Real-World Road Corner Case Dataset for Object Detection in Autonomous Driving](https://arxiv.org/abs/2203.07724) | 2022 | ECCV'22 |  |  |
+
+## New Datasets (2024-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving](https://arxiv.org/abs/2606.08525) | 2026 |  |  |  |
+| [DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration](https://arxiv.org/abs/2601.15260) | 2026 | IV'26 |  |  |
+| [nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving](https://arxiv.org/abs/2605.31572) | 2026 |  |  |  |
+| [The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset](https://arxiv.org/abs/2606.02956) | 2026 |  |  |  |
+| [WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios](https://arxiv.org/abs/2510.26125) | 2025 |  |  | Waymo - 4,021 long-tail segments (~12h), 8 cameras, Rater Feedback Score (RFS) |
+| [CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving](https://arxiv.org/abs/2408.10845) | 2024 |  |  |  |
+| [OmniHD-Scenes: A Next-Generation Multimodal Dataset for Autonomous Driving](https://arxiv.org/abs/2412.10734) | 2024 |  |  |  |
 

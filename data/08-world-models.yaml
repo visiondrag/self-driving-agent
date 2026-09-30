@@ -44,3 +44,17 @@ sections:
       - {id: "2609.28931", title: "HelloWorld: Towards Practical Applications of Generative Driving World Models"}
       - {id: "2607.06516", title: "Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation"}
       - {id: "2601.01528", title: "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving"}
+  - name: Occupancy World Models (2025-2026)
+    papers:
+      - {id: "2510.16729", title: "Vision-Centric 4D Occupancy Forecasting and Planning via Implicit Residual World Models"}
+      - {id: "2506.13260", title: "COME: Adding Scene-Centric Forecasting Control to Occupancy World Model"}
+      - {id: "2412.13772", title: "An Efficient Occupancy World Model via Decoupled Dynamic Flow and Image-assisted Training"}
+  - name: World-Action Models for E2E Driving (2026, cont.)
+    papers:
+      - {id: "2609.03602", title: "SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving"}
+      - {id: "2603.24587", title: "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving"}
+      - {id: "2606.16274", title: "GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving"}
+      - {id: "2604.09059", title: "Learning Vision-Language-Action World Models for Autonomous Driving"}
+  - name: World-Model Evaluation
+    papers:
+      - {id: "2412.05337", title: "ACT-Bench: Towards Action Controllable World Models for Autonomous Driving"}

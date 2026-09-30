@@ -5,7 +5,7 @@
 End-to-end (E2E) driving maps raw sensors to plans or controls with a jointly trained network.
 Benchmarks used: nuScenes open-loop (caution, see [Benchmarks](11-benchmarks.md)), NAVSIM, Bench2Drive, CARLA Leaderboard.
 
-**31 entries.** Add papers by editing `data/02-end-to-end.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**42 entries.** Add papers by editing `data/02-end-to-end.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## Foundations (pre-2021)
 
@@ -62,4 +62,25 @@ Benchmarks used: nuScenes open-loop (caution, see [Benchmarks](11-benchmarks.md)
 | [GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving](https://arxiv.org/abs/2503.05689) | 2025 | CVPR'25 |  |  |
 | [iPad: Iterative Proposal-centric End-to-End Autonomous Driving](https://arxiv.org/abs/2505.15111) | 2025 |  |  |  |
 | [DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2411.15139) | 2024 | CVPR'25 | [code](https://github.com/hustvl/DiffusionDrive) |  |
+
+## Flow Matching & Diffusion Planners (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving](https://arxiv.org/abs/2606.11019) | 2026 |  |  |  |
+| [FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving](https://arxiv.org/abs/2604.12656) | 2026 |  |  |  |
+| [FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning](https://arxiv.org/abs/2606.24231) | 2026 |  |  |  |
+| [Beyond Imitation: Constraint-Aware Trajectory Generation with Flow Matching For End-to-End Autonomous Driving](https://arxiv.org/abs/2510.26292) | 2025 |  |  |  |
+| [FlowDrive: moderated flow matching with data balancing for trajectory planning](https://arxiv.org/abs/2509.21961) | 2025 |  |  |  |
+| [GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving](https://arxiv.org/abs/2511.18729) | 2025 |  |  |  |
+| [WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching for Autonomous Driving](https://arxiv.org/abs/2512.06112) | 2025 |  |  |  |
+
+## Recent E2E Architectures (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving](https://arxiv.org/abs/2605.31116) | 2026 |  |  |  |
+| [Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms](https://arxiv.org/abs/2608.20111) | 2026 |  |  | Survey |
+| [DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving](https://arxiv.org/abs/2511.17150) | 2025 |  |  |  |
+| [Perception in Plan: Coupled Perception and Planning for End-to-End Autonomous Driving](https://arxiv.org/abs/2508.11488) | 2025 |  |  |  |
 

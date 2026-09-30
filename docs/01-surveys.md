@@ -4,7 +4,7 @@
 
 Good entry points for orienting yourself in a subarea before reading individual papers.
 
-**11 entries.** Add papers by editing `data/01-surveys.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**20 entries.** Add papers by editing `data/01-surveys.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## End-to-End & General
 
@@ -36,4 +36,18 @@ Good entry points for orienting yourself in a subarea before reading individual 
 |---|---|---|---|---|
 | [Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe](https://arxiv.org/abs/2205.09743) | 2022 | TPAMI'23 |  |  |
 | [Vision-Centric BEV Perception: A Survey](https://arxiv.org/abs/2208.02797) | 2022 | TPAMI'24 |  |  |
+
+## Recent Surveys (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms](https://arxiv.org/abs/2603.11093) | 2026 |  |  |  |
+| [Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving](https://arxiv.org/abs/2609.01659) | 2026 |  |  |  |
+| [Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms](https://arxiv.org/abs/2608.20111) | 2026 |  |  |  |
+| [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775) | 2026 |  |  |  |
+| [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) | 2025 |  |  | General embodied AI, includes driving |
+| [Foundation Models for Autonomous Driving Systems: An Initial Roadmap](https://arxiv.org/abs/2504.00911) | 2025 |  |  |  |
+| [Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis](https://arxiv.org/abs/2506.11526) | 2025 |  |  |  |
+| [The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2502.10498) | 2025 |  |  |  |
+| [Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future](https://arxiv.org/abs/2512.16760) | 2025 |  |  |  |
 

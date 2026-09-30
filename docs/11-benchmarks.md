@@ -7,7 +7,7 @@ Prefer NAVSIM (pseudo-closed-loop, real data), Bench2Drive / CARLA Leaderboard (
 nuPlan / Waymax (log-replay closed-loop). A 2026 study explicitly correlates NAVSIM and Bench2Drive
 ([arXiv 2605.00066](https://arxiv.org/abs/2605.00066)).
 
-**16 entries.** Add papers by editing `data/11-benchmarks.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
+**23 entries.** Add papers by editing `data/11-benchmarks.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).
 
 ## End-to-End Planning Benchmarks
 
@@ -46,4 +46,16 @@ Annual challenges worth tracking (leaderboards, not single papers): Waymo Open D
 | [CARLA Autonomous Driving Leaderboard](https://leaderboard.carla.org/) | 2025 | Leaderboard |  |  |
 | [CVPR Autonomous Grand Challenge (OpenDriveLab)](https://opendrivelab.com/challenge2025/) | 2025 | Leaderboard |  |  |
 | [Waymo Open Dataset Challenges](https://waymo.com/open/challenges/) | 2025 | Leaderboard |  | Waymo |
+
+## New Benchmarks (2025-2026)
+
+| Paper | Year | Venue | Code | Note |
+|---|---|---|---|---|
+| [Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations](https://arxiv.org/abs/2605.18059) | 2026 |  |  |  |
+| [Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models](https://arxiv.org/abs/2604.01259) | 2026 |  | [code](https://github.com/Thinklab-SJTU/Bench2Drive-VL) |  |
+| [nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving](https://arxiv.org/abs/2605.31572) | 2026 |  |  |  |
+| [VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving](https://arxiv.org/abs/2606.12706) | 2026 |  |  |  |
+| [DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation](https://arxiv.org/abs/2509.23922) | 2025 |  |  |  |
+| [WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios](https://arxiv.org/abs/2510.26125) | 2025 |  |  | Waymo - Metric: Rater Feedback Score; 2025 challenge won by Poutine |
+| [ACT-Bench: Towards Action Controllable World Models for Autonomous Driving](https://arxiv.org/abs/2412.05337) | 2024 |  |  |  |
 
