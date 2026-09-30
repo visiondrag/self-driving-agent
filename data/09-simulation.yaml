@@ -1,0 +1,35 @@
+order: 9
+title: Simulators, Neural Reconstruction & Scenario Generation
+summary: Physics/traffic simulators, NeRF/3DGS sensor simulation, reactive agents, and safety-critical scenario generation.
+sections:
+  - name: Simulators & Platforms
+    papers:
+      - {id: "1711.03938", title: "CARLA: An Open Urban Driving Simulator", venue: "CoRL'17", code: "https://github.com/carla-simulator/carla", note: "De-facto closed-loop sim; Leaderboard 2.0"}
+      - {id: "2109.12674", title: "MetaDrive: Composing Diverse Driving Scenarios for Generalizable Reinforcement Learning", venue: TPAMI'22, code: "https://github.com/metadriverse/metadrive"}
+      - {id: "2306.12241", title: "ScenarioNet: Open-Source Platform for Large-Scale Traffic Scenario Simulation and Modeling", venue: "NeurIPS'23 D&B"}
+      - {id: "2310.08710", title: "Waymax: An Accelerated, Data-Driven Simulator for Large-Scale Autonomous Driving Research", venue: "NeurIPS'23 D&B", org: Waymo, code: "https://github.com/waymo-research/waymax"}
+      - {id: "2408.01584", title: "GPUDrive: Data-driven, multi-agent driving simulation at 1 million FPS", venue: "ICLR'25"}
+      - {id: "2010.09776", title: "SMARTS: Scalable Multi-Agent Reinforcement Learning Training School for Autonomous Driving", venue: "CoRL'20"}
+      - {id: "2206.09889", title: "Nocturne: a scalable driving benchmark for bringing multi-agent learning one step closer to the real world", venue: "NeurIPS'22 D&B"}
+      - {id: "2408.00415", title: "DriveArena: A Closed-loop Generative Simulation Platform for Autonomous Driving"}
+  - name: Neural Reconstruction (NeRF / 3D Gaussian Splatting)
+    papers:
+      - {id: "2308.01898", title: "UniSim: A Neural Closed-Loop Sensor Simulator", venue: "CVPR'23", org: Waabi}
+      - {id: "2307.15058", title: "MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving"}
+      - {id: "2401.01339", title: "Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting", venue: "ECCV'24"}
+      - {id: "2312.07920", title: "DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes", venue: "CVPR'24"}
+      - {id: "2403.12722", title: "HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting", venue: "CVPR'24"}
+      - {id: "2408.16760", title: "OmniRe: Omni Urban Scene Reconstruction", venue: "ICLR'25"}
+      - {id: "2412.01718", title: "HUGSIM: A Real-Time, Photo-Realistic and Closed-Loop Simulator for Autonomous Driving"}
+      - {id: "2404.07762", title: "NeuroNCAP: Photorealistic Closed-loop Safety Testing for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2412.13188", title: "StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models", venue: "CVPR'25"}
+  - name: Traffic Agents / Multi-agent Behavior Simulation
+    papers:
+      - {id: "2405.15677", title: "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction", venue: "NeurIPS'24", note: "WOSAC winner lineage"}
+      - {id: "2412.05334", title: "Closed-Loop Supervised Fine-Tuning of Tokenized Traffic Models", venue: "CVPR'25", note: "CAT-K"}
+      - {id: "2211.00426", title: "TrafficBots: Towards World Models for Autonomous Driving Simulation and Motion Prediction", venue: "ICRA'23"}
+  - name: Safety-critical Scenario Generation
+    papers:
+      - {id: "2210.06609", title: "TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios", venue: "ICRA'23"}
+      - {id: "2403.17933", title: "SLEDGE: Synthesizing Driving Environments with Generative Models and Rule-Based Traffic", venue: "ECCV'24"}
+      - {id: "2405.14062", title: "ChatScene: Knowledge-Enabled Safety-Critical Scenario Generation for Autonomous Vehicles", venue: "CVPR'24"}

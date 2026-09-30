@@ -1,0 +1,37 @@
+order: 10
+title: Datasets
+summary: Real-world driving datasets for perception, prediction, planning, occupancy, mapping and language/VQA.
+sections:
+  - name: Large-scale Sensor Datasets
+    papers:
+      - {id: "1903.11027", title: "nuScenes: A multimodal dataset for autonomous driving", venue: "CVPR'20"}
+      - {id: "1912.04838", title: "Scalability in Perception for Autonomous Driving: Waymo Open Dataset", venue: "CVPR'20"}
+      - {id: "1604.01685", title: "The Cityscapes Dataset for Semantic Urban Scene Understanding", venue: "CVPR'16"}
+      - {id: "1805.04687", title: "BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning", venue: "CVPR'20"}
+      - {id: "2106.11037", title: "One Million Scenes for Autonomous Driving: ONCE Dataset", venue: "NeurIPS'21 D&B"}
+      - {id: "2305.02008", title: "Zenseact Open Dataset: A large-scale and diverse multimodal dataset for autonomous driving", venue: "ICCV'23"}
+      - {id: "1812.05752", title: "Comma2k19: A Dataset for Learning Driving Models", org: comma.ai}
+  - name: Motion Forecasting & Planning Datasets
+    papers:
+      - {id: "1911.02620", title: "Argoverse: 3D Tracking and Forecasting with Rich Maps", venue: "CVPR'19"}
+      - {id: "2301.00493", title: "Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting", venue: "NeurIPS'21 D&B"}
+      - {id: "2104.10133", title: "Large Scale Interactive Motion Forecasting for Autonomous Driving: The Waymo Open Motion Dataset", venue: "ICCV'21"}
+      - {id: "2106.11810", title: "NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles", venue: "CVPR-W'21"}
+  - name: Occupancy & Mapping
+    papers:
+      - {id: "2304.14365", title: "Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving", venue: "NeurIPS'23 D&B"}
+      - {id: "2304.10440", title: "Topology Reasoning for Driving Scenes", note: "OpenLane-V2"}
+      - {id: "2203.11089", title: "PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark", venue: "ECCV'22"}
+  - name: Language / VQA / Explanation Datasets
+    papers:
+      - {id: "1807.11546", title: "Textual Explanations for Self-Driving Vehicles", venue: "ECCV'18", note: "BDD-X"}
+      - {id: "1909.10838", title: "Talk2Car: Taking Control of Your Self-Driving Car", venue: "EMNLP'19"}
+      - {id: "2305.14836", title: "NuScenes-QA: A Multi-modal Visual Question Answering Benchmark for Autonomous Driving Scenario", venue: "AAAI'24"}
+      - {id: "2312.14150", title: "DriveLM: Driving with Graph Visual Question Answering", venue: "ECCV'24"}
+      - {id: "2312.14115", title: "LingoQA: Visual Question Answering for Autonomous Driving", venue: "ECCV'24", org: Wayve}
+      - {id: "2312.03661", title: "Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2209.10767", title: "DRAMA: Joint Risk Localization and Captioning in Driving", venue: "WACV'23"}
+  - name: Corner Cases / Long-tail
+    papers:
+      - {id: "2203.07724", title: "CODA: A Real-World Road Corner Case Dataset for Object Detection in Autonomous Driving", venue: "ECCV'22"}
+      - {id: "2404.10595", title: "Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases", note: "CODA-LM"}

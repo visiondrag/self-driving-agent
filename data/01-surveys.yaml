@@ -1,0 +1,24 @@
+order: 1
+title: Surveys & Roadmaps
+summary: Survey papers covering the whole field and each subtopic - start here.
+intro: Good entry points for orienting yourself in a subarea before reading individual papers.
+sections:
+  - name: End-to-End & General
+    papers:
+      - {id: "2306.16927", title: "End-to-end Autonomous Driving: Challenges and Frontiers", venue: TPAMI'24, code: "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving", note: "Most-cited E2E survey"}
+  - name: LLM / VLM / VLA
+    papers:
+      - {id: "2311.01043", title: "A Survey on Multimodal Large Language Models for Autonomous Driving", venue: "WACV-W'24", code: "https://github.com/IrohXu/Awesome-Multimodal-LLM-Autonomous-Driving"}
+      - {id: "2311.12144", title: "Applications of Large Scale Foundation Models for Autonomous Driving", code: "https://github.com/zhanghm1995/Awesome-Foundation-Models-for-AD"}
+      - {id: "2310.14414", title: "Vision Language Models in Autonomous Driving: A Survey and Outlook", venue: T-IV'24}
+      - {id: "2312.04316", title: "Towards Knowledge-driven Autonomous Driving"}
+      - {id: "2506.24044", title: "A Survey on Vision-Language-Action Models for Autonomous Driving", venue: "ICCV-W'25"}
+  - name: World Models & Generation
+    papers:
+      - {id: "2405.03520", title: "Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond", note: "General, driving section"}
+      - {id: "2501.11260", title: "A Survey of World Models for Autonomous Driving"}
+      - {id: "2403.02622", title: "World Models for Autonomous Driving: An Initial Survey", venue: T-IV'24}
+  - name: Perception, Prediction, Planning
+    papers:
+      - {id: "2208.02797", title: "Vision-Centric BEV Perception: A Survey", venue: TPAMI'24}
+      - {id: "2205.09743", title: "Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe", venue: TPAMI'23}

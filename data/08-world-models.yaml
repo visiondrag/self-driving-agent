@@ -1,0 +1,46 @@
+order: 8
+title: World Models & Generative Simulation
+summary: Video, occupancy and latent world models for driving; controllable generation, data synthesis, neural closed-loop simulators.
+intro: |
+  Two overlapping lines: (1) generative world models that predict future observations conditioned on actions,
+  used as simulators and data engines; (2) world-action models that use prediction as a training signal for planners.
+  Evaluation: [DrivingGen](https://arxiv.org/abs/2601.01528) and others in [Benchmarks](11-benchmarks.md).
+sections:
+  - name: Video World Models
+    papers:
+      - {id: "2309.17080", title: "GAIA-1: A Generative World Model for Autonomous Driving", org: Wayve}
+      - {id: "2503.20523", title: "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving", org: Wayve}
+      - {id: "2309.09777", title: "DriveDreamer: Towards Real-world-driven World Models for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2403.06845", title: "DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation", venue: "AAAI'25"}
+      - {id: "2311.17918", title: "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving", venue: "CVPR'24", note: "Drive-WM"}
+      - {id: "2405.17398", title: "Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability", venue: "NeurIPS'24"}
+      - {id: "2403.09630", title: "Generalized Predictive Model for Autonomous Driving", venue: "CVPR'24", note: "GenAD / OpenDV-2K"}
+      - {id: "2311.13549", title: "ADriver-I: A General World Model for Autonomous Driving"}
+      - {id: "2412.18607", title: "DrivingGPT: Unifying Driving World Modeling and Planning with Multi-modal Autoregressive Transformers"}
+      - {id: "2412.19505", title: "DrivingWorld: Constructing World Model for Autonomous Driving via Video GPT"}
+      - {id: "2412.11198", title: "GEM: A Generalizable Ego-Vision Multimodal World Model for Fine-Grained Ego-Motion, Object Dynamics, and Scene Composition Control"}
+      - {id: "2506.24113", title: "Epona: Autoregressive Diffusion World Model for Autonomous Driving", venue: "ICCV'25"}
+      - {id: "2501.03575", title: "Cosmos World Foundation Model Platform for Physical AI", org: NVIDIA, code: "https://github.com/NVIDIA/Cosmos"}
+      - {id: "2506.09042", title: "Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models", org: NVIDIA}
+  - name: Controllable Multi-view / Layout-conditioned Generation
+    papers:
+      - {id: "2310.02601", title: "MagicDrive: Street View Generation with Diverse 3D Geometry Control", venue: "ICLR'24"}
+      - {id: "2411.13807", title: "MagicDriveDiT: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control"}
+      - {id: "2311.16813", title: "Panacea: Panoramic and Controllable Video Generation for Autonomous Driving", venue: "CVPR'24"}
+      - {id: "2312.02934", title: "WoVoGen: World Volume-aware Diffusion for Controllable Multi-camera Driving Scene Generation"}
+  - name: Occupancy / 3D World Models
+    papers:
+      - {id: "2311.16038", title: "OccWorld: Learning a 3D Occupancy World Model for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2311.01017", title: "Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion", venue: "ICLR'24"}
+      - {id: "2412.09627", title: "Doe-1: Closed-Loop Autonomous Driving with Large World Model"}
+      - {id: "2405.04390", title: "DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving", venue: "CVPR'24"}
+  - name: World-Action Models (2026)
+    desc: Scanned from recent arXiv results; verify on first run.
+    papers:
+      - {id: "2605.28544", title: "DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving"}
+      - {id: "2608.20974", title: "WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving"}
+      - {id: "2608.07468", title: "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving"}
+      - {id: "2605.11596", title: "HorizonDrive: Self-Corrective Autoregressive World Model for Long-horizon Driving Simulation"}
+      - {id: "2609.28931", title: "HelloWorld: Towards Practical Applications of Generative Driving World Models"}
+      - {id: "2607.06516", title: "Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation"}
+      - {id: "2601.01528", title: "DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving"}

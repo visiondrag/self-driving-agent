@@ -1,0 +1,22 @@
+order: 14
+title: Industry Systems & Tech Reports
+summary: Publicly documented production/research stacks from Waymo, Wayve, NVIDIA, Li Auto and others.
+intro: |
+  Company disclosures are often blog posts or talks rather than papers; they are included because they
+  drive the state of practice. Entries without an arXiv id link to the primary source.
+sections:
+  - name: Papers & Reports
+    papers:
+      - {id: "2410.23262", title: "EMMA: End-to-End Multimodal Model for Autonomous Driving", org: Waymo}
+      - {id: "2511.00088", title: "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail", org: NVIDIA}
+      - {id: "2501.03575", title: "Cosmos World Foundation Model Platform for Physical AI", org: NVIDIA}
+      - {id: "2309.17080", title: "GAIA-1: A Generative World Model for Autonomous Driving", org: Wayve}
+      - {id: "2503.20523", title: "GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving", org: Wayve}
+      - {id: "2406.10165", title: "CarLLaVA: Vision language models for camera-only closed-loop driving", org: Wayve}
+      - {id: "2410.22313", title: "Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving", org: Li Auto}
+      - {id: "2402.12289", title: "DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models", org: "Tsinghua / Li Auto"}
+  - name: Talks & Blogs
+    papers:
+      - {url: "https://waymo.com/research/", title: "Waymo Research publications index", org: Waymo, venue: Web, year: 2025}
+      - {url: "https://wayve.ai/science/", title: "Wayve Science", org: Wayve, venue: Web, year: 2025}
+      - {url: "https://developer.nvidia.com/drive", title: "NVIDIA DRIVE / Alpamayo platform", org: NVIDIA, venue: Web, year: 2025}

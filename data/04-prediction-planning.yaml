@@ -1,0 +1,21 @@
+order: 4
+title: Prediction & Planning
+summary: Motion forecasting, interactive prediction, rule-based/learned/hybrid planners, nuPlan-style closed-loop planning.
+sections:
+  - name: Motion Forecasting
+    papers:
+      - {id: "2005.04259", title: "VectorNet: Encoding HD Maps and Agent Dynamics from Vectorized Representation", venue: "CVPR'20"}
+      - {id: "2106.08417", title: "Scene Transformer: A unified architecture for predicting multiple agent trajectories", venue: "ICLR'22"}
+      - {id: "2207.05844", title: "Wayformer: Motion Forecasting via Simple & Efficient Attention Networks", venue: "ICRA'23"}
+      - {id: "2209.13508", title: "Motion Transformer with Global Intention Localization and Local Movement Refinement", venue: "NeurIPS'22", note: "MTR"}
+      - {id: "2306.17770", title: "MTR++: Multi-Agent Motion Prediction with Symmetric Scene Modeling and Guided Intention Querying", venue: TPAMI'24}
+      - {id: "2306.10829", title: "Query-Centric Trajectory Prediction", venue: "CVPR'23", note: "QCNet"}
+      - {id: "2309.16534", title: "MotionLM: Multi-Agent Motion Forecasting as Language Modeling", venue: "ICCV'23", org: Waymo}
+      - {id: "2405.15677", title: "SMART: Scalable Multi-agent Real-time Motion Generation via Next-token Prediction", venue: "NeurIPS'24"}
+  - name: Learned & Hybrid Planning (nuPlan)
+    papers:
+      - {id: "2106.11810", title: "NuPlan: A closed-loop ML-based planning benchmark for autonomous vehicles", venue: "CVPR-W'21"}
+      - {id: "2306.07962", title: "Parting with Misconceptions about Learning-based Vehicle Motion Planning", venue: "CoRL'23", code: "https://github.com/autonomousvision/tuplan_garage", note: "PDM-Closed; simple rules beat learned"}
+      - {id: "2309.10443", title: "Rethinking Imitation-based Planner for Autonomous Driving", venue: "ICRA'24", note: "PlanTF"}
+      - {id: "2303.05760", title: "GameFormer: Game-theoretic Modeling and Learning of Transformer-based Interactive Prediction and Planning for Autonomous Driving", venue: "ICCV'23"}
+      - {id: "2501.15564", title: "Diffusion-Based Planning for Autonomous Driving with Flexible Guidance", venue: "ICLR'25"}

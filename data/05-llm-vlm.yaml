@@ -1,0 +1,34 @@
+order: 5
+title: LLM / VLM for Driving
+summary: Language and vision-language models as drivers, planners, explainers, and QA systems (pre-action-head era).
+intro: |
+  Approaches that use (multimodal) LLMs for driving decisions, explanation, or scene understanding.
+  Models that output trajectories/actions end-to-end from a VLM backbone live in [VLA](06-vla.md).
+sections:
+  - name: LLM as Planner / Decision Maker
+    papers:
+      - {id: "2310.01415", title: "GPT-Driver: Learning to Drive with GPT", venue: "NeurIPS-W'23", note: "Planning as language modeling"}
+      - {id: "2310.03026", title: "LanguageMPC: Large Language Models as Decision Makers for Autonomous Driving"}
+      - {id: "2311.10813", title: "A Language Agent for Autonomous Driving", venue: "COLM'24", note: "Agent-Driver"}
+      - {id: "2309.16292", title: "DiLu: A Knowledge-Driven Approach to Autonomous Driving with Large Language Models", venue: "ICLR'24"}
+      - {id: "2310.01957", title: "Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving", venue: "ICRA'24", org: Wayve}
+      - {id: "2312.09245", title: "DriveMLM: Aligning Multi-Modal Large Language Models with Behavioral Planning States for Autonomous Driving"}
+  - name: VLM Drivers, Explainers & Reasoners
+    papers:
+      - {id: "2310.01412", title: "DriveGPT4: Interpretable End-to-end Autonomous Driving via Large Language Model", venue: RA-L'24}
+      - {id: "2312.14150", title: "DriveLM: Driving with Graph Visual Question Answering", venue: "ECCV'24", code: "https://github.com/OpenDriveLab/DriveLM"}
+      - {id: "2312.07488", title: "LMDrive: Closed-Loop End-to-End Driving with Large Language Models", venue: "CVPR'24", code: "https://github.com/opendilab/LMDrive"}
+      - {id: "2402.12289", title: "DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models", venue: "CoRL'24", note: "Slow-fast dual system"}
+      - {id: "2405.01533", title: "OmniDrive: A Holistic LLM-Agent Framework for Autonomous Driving with 3D Perception, Reasoning and Planning", org: NVIDIA}
+      - {id: "2402.10828", title: "RAG-Driver: Generalisable Driving Explanations with Retrieval-Augmented In-Context Learning in Multi-Modal Large Language Model", venue: "RSS'24"}
+      - {id: "2312.03661", title: "Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving", venue: "ECCV'24"}
+      - {id: "2312.00438", title: "Dolphins: Multimodal Language Model for Driving"}
+      - {id: "2410.22313", title: "Senna: Bridging Large Vision-Language Models and End-to-End Autonomous Driving"}
+      - {id: "2410.23262", title: "EMMA: End-to-End Multimodal Model for Autonomous Driving", org: Waymo, note: "Gemini-based unified trajectory/detection/road-graph output"}
+      - {id: "2405.04390", title: "DriveWorld: 4D Pre-trained Scene Understanding via World Models for Autonomous Driving", venue: "CVPR'24", note: "See world models"}
+      - {id: "2401.00988", title: "Holistic Autonomous Driving Understanding by Bird's-Eye-View Injected Multi-Modal Large Models", venue: "CVPR'24", note: "BEV-InMLLM / NuInstruct"}
+      - {id: "2309.05186", title: "Drive Like a Human: Rethinking Autonomous Driving with Large Language Models", venue: "WACV-W'24"}
+  - name: Wayve Language Work (tech reports)
+    papers:
+      - {url: "https://wayve.ai/thinking/lingo-2-driving-with-natural-language/", title: "LINGO-2: Driving with Natural Language", org: Wayve, venue: Blog, year: 2024, note: "First closed-loop VLAM on public roads"}
+      - {id: "2309.17080", title: "GAIA-1: A Generative World Model for Autonomous Driving", org: Wayve, note: "See world models"}

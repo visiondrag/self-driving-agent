@@ -1,0 +1,13 @@
+order: 13
+title: Cooperative Driving & V2X
+summary: Vehicle-to-everything perception/planning, multi-agent collaboration, and datasets.
+sections:
+  - name: Datasets
+    papers:
+      - {id: "2204.05575", title: "DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection", venue: "CVPR'22"}
+      - {id: "2303.07601", title: "V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception", venue: "CVPR'23"}
+  - name: Methods
+    papers:
+      - {id: "2203.10638", title: "V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer", venue: "ECCV'22"}
+      - {id: "2404.00717", title: "End-to-End Autonomous Driving through V2X Cooperation", venue: "AAAI'25", note: "UniV2X"}
+      - {id: "2503.08683", title: "CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving"}
