@@ -6,10 +6,16 @@ Usage: python scripts/build.py [--check]
 """
 from __future__ import annotations
 
+import re
 import sys
 
 from common import DOCS, NEW_ID, ROOT, iter_papers, load_topics, paper_link, paper_year
 
+TOPIC_LABEL = {
+    "surveys": "Surveys", "end-to-end": "End-to-end", "perception-mapping": "Perception", "prediction-planning": "Planning",
+    "llm-vlm": "LLM/VLM", "vla": "VLA", "reasoning-rl": "Reasoning/RL", "world-models": "World models", "simulation": "Simulation",
+    "datasets": "Datasets", "benchmarks": "Benchmarks", "safety-robustness": "Safety", "cooperative-v2x": "V2X", "industry": "Industry",
+}
 START, END = "<!-- TOPICS:START -->", "<!-- TOPICS:END -->"
 
 
@@ -17,26 +23,40 @@ def esc(text: str) -> str:
     return str(text).replace("|", "\\|")
 
 
+def venue_text(p) -> str:
+    """'CVPR'25' -> 'CVPR 2025'; arXiv-only entries get no venue (the site shows 'preprint')."""
+    v = p.get("venue", "")
+    if not v or v.lower() == "arxiv":
+        return ""
+    v = re.sub(r"'(\d\d)\b", lambda m: " 20" + m.group(1), v)
+    if p.get("year") and not re.search(r"\d{4}", v):
+        v += f" {p['year']}"
+    return v
+
+
+def entry_line(p, extra: str = "") -> str:
+    """Same entry format the website parser expects: **Title**: note: [Link](url) - [Code](url) · *Venue Year*"""
+    base = " - ".join(y for y in (p.get("org"), p.get("note")) if y)
+    note = f"{base} {extra}".strip() if extra else base
+    line = f"- **{p['title']}**" + (f": {note}" if note else "") + f": [Link]({paper_link(p)})"
+    if p.get("code"):
+        line += f" - [Code]({p['code']})"
+    venue = venue_text(p)
+    return line + (f" · *{venue}*" if venue else "")
+
+
 def render_topic(topic) -> str:
     out = [f"# {topic['title']}", "", "<!-- generated from data/%s.yaml; do not edit by hand -->" % topic["slug"], ""]
     if topic.get("intro"):
         out += [topic["intro"].strip(), ""]
     n = sum(1 for _ in iter_papers(topic))
-    out += [f"**{n} entries.** Add papers by editing `data/{topic['slug']}.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).", ""]
+    out += [f"**{n} entries**, newest first within each section. Add papers by editing `data/{topic['slug']}.yaml` (see [CONTRIBUTING](../CONTRIBUTING.md)).", ""]
     for section in topic.get("sections", []):
         out += [f"## {section['name']}", ""]
         if section.get("desc"):
             out += [section["desc"].strip(), ""]
-        out += ["| Paper | Year | Venue | Code | Note |", "|---|---|---|---|---|"]
-        papers = sorted(section["papers"], key=lambda p: (-(paper_year(p) or 0), p["title"].lower()))
-        for p in papers:
-            link = paper_link(p)
-            title = f"[{esc(p['title'])}]({link})" if link else esc(p["title"])
-            code = f"[code]({p['code']})" if p.get("code") else ""
-            note = " - ".join(x for x in (p.get("org"), p.get("note")) if x)
-            out.append(
-                f"| {title} | {paper_year(p) or ''} | {esc(p.get('venue', ''))} | {code} | {esc(note)} |"
-            )
+        papers = sorted(section["papers"], key=lambda p: (-(paper_year(p) or 0), -(int(str(p.get("id", "0")).replace(".", "")) if p.get("id") else 0), p["title"].lower()))
+        out += [entry_line(p) for p in papers]
         out.append("")
     return "\n".join(out)
 
@@ -74,10 +94,9 @@ def render_recent(topics) -> str:
         quarter = f"20{pid[:2]} Q{(int(pid[2:4]) - 1) // 3 + 1}"
         if quarter != current:
             current = quarter
-            out += ["", f"## {quarter}", "", "| Paper | Topics | Note |", "|---|---|---|"]
-        links = ", ".join(f"[{esc(t['title'].split(' & ')[0].split(' (')[0])}]({t['slug']}.md)" for t in tps)
-        note = " - ".join(x for x in (p.get("org"), p.get("note")) if x)
-        out.append(f"| [{esc(p['title'])}]({paper_link(p)}) `{pid}` | {links} | {esc(note)} |")
+            out += ["", f"## {quarter}", ""]
+        topics_txt = "(" + ", ".join(TOPIC_LABEL.get(t["slug"], t["title"]) for t in tps) + ")"
+        out.append(entry_line(p, topics_txt))
     out.append("")
     return "\n".join(out)
 

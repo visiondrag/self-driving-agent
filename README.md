@@ -3,7 +3,9 @@
 A curated, machine-checkable collection of research on **autonomous driving** - with emphasis on the
 LLM/VLM/VLA and world-model era: methods, reasoning, datasets, benchmarks, simulators, safety, and industry systems.
 
-Every entry lives in `data/*.yaml`; the tables in `docs/` and the index below are **generated** by
+**Browse it as a website:** https://visiondrag.github.io/self-driving-agent/ (searchable, filterable, dark/light; published with GitHub Pages).
+
+Every entry lives in `data/*.yaml`; the pages in `docs/` and the index below are **generated** by
 `scripts/build.py`, and every arXiv id/title pair is checked against arXiv by `scripts/verify.py`.
 
 ## Start here: recent work (2025-2026)
@@ -16,23 +18,27 @@ Every entry lives in `data/*.yaml`; the tables in `docs/` and the index below ar
 <!-- TOPICS:START -->
 | Topic | Entries | What is inside |
 |---|---|---|
-| [Surveys & Roadmaps](docs/01-surveys.md) | 20 | Survey papers covering the whole field and each subtopic - start here. |
-| [End-to-End Driving](docs/02-end-to-end.md) | 42 | Sensors-to-trajectory/control models - modular-differentiable, imitation, diffusion, BEV/sparse, closed-loop CARLA. |
-| [Perception, Occupancy & Mapping](docs/03-perception-mapping.md) | 18 | BEV/sparse 3D detection, occupancy, online HD-map construction, tracking, sensor fusion. |
-| [Prediction & Planning](docs/04-prediction-planning.md) | 13 | Motion forecasting, interactive prediction, rule-based/learned/hybrid planners, nuPlan-style closed-loop planning. |
-| [LLM / VLM for Driving](docs/05-llm-vlm.md) | 21 | Language and vision-language models as drivers, planners, explainers, and QA systems (pre-action-head era). |
-| [Vision-Language-Action (VLA)](docs/06-vla.md) | 47 | VLM backbones that output driving actions/trajectories directly - dual-system, reasoning-VLA, RL-tuned, world-model-augmented. |
-| [Reasoning, RL & Post-training](docs/07-reasoning-rl.md) | 18 | Reinforcement learning for driving policies, RL post-training of VLA/VLM, reward design, imitation-vs-RL, closed-loop training. |
-| [World Models & Generative Simulation](docs/08-world-models.md) | 37 | Video, occupancy and latent world models for driving; controllable generation, data synthesis, neural closed-loop simulators. |
-| [Simulators, Neural Reconstruction & Scenario Generation](docs/09-simulation.md) | 37 | Physics/traffic simulators, NeRF/3DGS sensor simulation, reactive agents, and safety-critical scenario generation. |
-| [Datasets](docs/10-datasets.md) | 30 | Real-world driving datasets for perception, prediction, planning, occupancy, mapping and language/VQA. |
-| [Benchmarks & Evaluation](docs/11-benchmarks.md) | 23 | Open-loop, pseudo-closed-loop and closed-loop evaluation of E2E planners, VLMs/VLAs, and generative world models. |
-| [Safety, Robustness & Trust](docs/12-safety-robustness.md) | 12 | Adversarial/attack surfaces, distribution shift, uncertainty, explainability, and safety of LLM/VLA drivers. |
-| [Cooperative Driving & V2X](docs/13-cooperative-v2x.md) | 13 | Vehicle-to-everything perception/planning, multi-agent collaboration, and datasets. |
-| [Industry Systems & Tech Reports](docs/14-industry.md) | 11 | Publicly documented production/research stacks from Waymo, Wayve, NVIDIA, Li Auto and others. |
+| [Surveys & Roadmaps](docs/surveys.md) | 20 | Survey papers covering the whole field and each subtopic - start here. |
+| [End-to-End Driving](docs/end-to-end.md) | 42 | Sensors-to-trajectory/control models - modular-differentiable, imitation, diffusion, BEV/sparse, closed-loop CARLA. |
+| [Perception, Occupancy & Mapping](docs/perception-mapping.md) | 18 | BEV/sparse 3D detection, occupancy, online HD-map construction, tracking, sensor fusion. |
+| [Prediction & Planning](docs/prediction-planning.md) | 13 | Motion forecasting, interactive prediction, rule-based/learned/hybrid planners, nuPlan-style closed-loop planning. |
+| [LLM / VLM for Driving](docs/llm-vlm.md) | 21 | Language and vision-language models as drivers, planners, explainers, and QA systems (pre-action-head era). |
+| [Vision-Language-Action (VLA)](docs/vla.md) | 47 | VLM backbones that output driving actions/trajectories directly - dual-system, reasoning-VLA, RL-tuned, world-model-augmented. |
+| [Reasoning, RL & Post-training](docs/reasoning-rl.md) | 18 | Reinforcement learning for driving policies, RL post-training of VLA/VLM, reward design, imitation-vs-RL, closed-loop training. |
+| [World Models & Generative Simulation](docs/world-models.md) | 37 | Video, occupancy and latent world models for driving; controllable generation, data synthesis, neural closed-loop simulators. |
+| [Simulators, Neural Reconstruction & Scenario Generation](docs/simulation.md) | 37 | Physics/traffic simulators, NeRF/3DGS sensor simulation, reactive agents, and safety-critical scenario generation. |
+| [Datasets](docs/datasets.md) | 30 | Real-world driving datasets for perception, prediction, planning, occupancy, mapping and language/VQA. |
+| [Benchmarks & Evaluation](docs/benchmarks.md) | 23 | Open-loop, pseudo-closed-loop and closed-loop evaluation of E2E planners, VLMs/VLAs, and generative world models. |
+| [Safety, Robustness & Trust](docs/safety-robustness.md) | 12 | Adversarial/attack surfaces, distribution shift, uncertainty, explainability, and safety of LLM/VLA drivers. |
+| [Cooperative Driving & V2X](docs/cooperative-v2x.md) | 13 | Vehicle-to-everything perception/planning, multi-agent collaboration, and datasets. |
+| [Industry Systems & Tech Reports](docs/industry.md) | 11 | Publicly documented production/research stacks from Waymo, Wayve, NVIDIA, Li Auto and others. |
 
 **Total: 342 entries across 14 topics.**
 <!-- TOPICS:END -->
+
+## More pages
+
+[Recent papers](docs/recent.md) · [Learning](docs/learning.md) · [Tools](docs/tools.md) · [Competitions](docs/competitions.md) · [Organizations](docs/organizations.md)
 
 ## Map of the field
 
@@ -49,7 +55,7 @@ Evaluation:  NAVSIM · Bench2Drive · CARLA LB · nuPlan · Waymax · WOD-E2E ·
 
 ## Suggested reading paths
 
-- **New to the field:** [Surveys](docs/01-surveys.md) → UniAD, VAD, TransFuser → NAVSIM/Bench2Drive.
+- **New to the field:** [Surveys](docs/surveys.md) → UniAD, VAD, TransFuser → NAVSIM/Bench2Drive.
 - **VLA / reasoning:** EMMA → DriveVLM → OpenDriveVLA / ORION / AutoVLA → AlphaDrive / Alpamayo-R1.
 - **Evaluation skeptic:** AD-MLP, Ego-Status, PDM-Closed (`Parting with Misconceptions`), then NAVSIM v2.
 - **Simulation & data:** CARLA, Waymax → 3DGS reconstruction (Street Gaussians, OmniRe) → world models (GAIA-2, Cosmos).
@@ -61,9 +67,11 @@ pip install -r requirements.txt
 python scripts/build.py          # regenerate docs/ and this index
 python scripts/verify.py         # check arXiv ids vs titles (needs network)
 python scripts/discover.py       # list new arXiv papers not yet tracked
+pip install markdown pillow && python website/build.py   # build the website into ./_site
+python -m http.server -d _site 8000
 ```
 
-CI (`.github/workflows/`) fails a PR if generated files are stale, and runs the verifier weekly.
+CI (`.github/workflows/`) fails a PR if generated files are stale or the site does not build, runs the verifier weekly, and deploys the site to GitHub Pages on every push to `main`. One-time setup: **Settings > Pages > Source: GitHub Actions**.
 
 ## Status & caveats
 

@@ -4,7 +4,7 @@ summary: Video, occupancy and latent world models for driving; controllable gene
 intro: |
   Two overlapping lines: (1) generative world models that predict future observations conditioned on actions,
   used as simulators and data engines; (2) world-action models that use prediction as a training signal for planners.
-  Evaluation: [DrivingGen](https://arxiv.org/abs/2601.01528) and others in [Benchmarks](11-benchmarks.md).
+  Evaluation: [DrivingGen](https://arxiv.org/abs/2601.01528) and others in [Benchmarks](benchmarks.md).
 sections:
   - name: Video World Models
     papers:

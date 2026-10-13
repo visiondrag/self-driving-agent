@@ -3,7 +3,7 @@ title: End-to-End Driving
 summary: Sensors-to-trajectory/control models - modular-differentiable, imitation, diffusion, BEV/sparse, closed-loop CARLA.
 intro: |
   End-to-end (E2E) driving maps raw sensors to plans or controls with a jointly trained network.
-  Benchmarks used: nuScenes open-loop (caution, see [Benchmarks](11-benchmarks.md)), NAVSIM, Bench2Drive, CARLA Leaderboard.
+  Benchmarks used: nuScenes open-loop (caution, see [Benchmarks](benchmarks.md)), NAVSIM, Bench2Drive, CARLA Leaderboard.
 sections:
   - name: Foundations (pre-2021)
     papers:
