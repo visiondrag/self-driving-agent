@@ -18,154 +18,140 @@ Where the field is moving (seed observations from a scan of recent arXiv results
 
 ## 2026 Q3
 
-| Paper | Topics | Note |
-|---|---|---|
-| [V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2609.37098) `2609.37098` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving](https://arxiv.org/abs/2609.34387) `2609.34387` | [Vision-Language-Action](06-vla.md) |  |
-| [HelloWorld: Towards Practical Applications of Generative Driving World Models](https://arxiv.org/abs/2609.28931) `2609.28931` | [World Models](08-world-models.md) |  |
-| [Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation](https://arxiv.org/abs/2609.27296) `2609.27296` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving](https://arxiv.org/abs/2609.15169) `2609.15169` | [Vision-Language-Action](06-vla.md) |  |
-| [SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2609.03602) `2609.03602` | [World Models](08-world-models.md) |  |
-| [Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving](https://arxiv.org/abs/2609.01659) `2609.01659` | [Surveys](01-surveys.md), [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving](https://arxiv.org/abs/2609.00111) `2609.00111` | [Vision-Language-Action](06-vla.md) |  |
-| [Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving](https://arxiv.org/abs/2608.30144) `2608.30144` | [Vision-Language-Action](06-vla.md) | Orion-Lite: 0.1B vision-only student beats 7B teacher on Bench2Drive |
-| [Roadside-Cooperative Autonomous Driving: From Data Platform to Vision-Language End-to-End Reasoning](https://arxiv.org/abs/2608.21032) `2608.21032` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving](https://arxiv.org/abs/2608.20974) `2608.20974` | [World Models](08-world-models.md) |  |
-| [Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms](https://arxiv.org/abs/2608.20111) `2608.20111` | [Surveys](01-surveys.md), [End-to-End Driving](02-end-to-end.md), [Benchmarks](11-benchmarks.md) |  |
-| [CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models](https://arxiv.org/abs/2608.07621) `2608.07621` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [SimWAM: A Simple World Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2608.07468) `2608.07468` | [World Models](08-world-models.md) |  |
-| [DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing](https://arxiv.org/abs/2608.01761) `2608.01761` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA](https://arxiv.org/abs/2608.01035) `2608.01035` | [Vision-Language-Action](06-vla.md) |  |
-| [WorkDrive: Roadwork Chain of Causation for Autonomous Driving](https://arxiv.org/abs/2607.14727) `2607.14727` | [Vision-Language-Action](06-vla.md) |  |
-| [WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2607.08375) `2607.08375` | [Vision-Language-Action](06-vla.md) |  |
-| [Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation](https://arxiv.org/abs/2607.06516) `2607.06516` | [World Models](08-world-models.md) |  |
-| [Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective](https://arxiv.org/abs/2607.05783) `2607.05783` | [Safety, Robustness](12-safety-robustness.md) |  |
-| [Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation](https://arxiv.org/abs/2607.04770) `2607.04770` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [Agent-driven Long-tail Simulation for Autonomous Driving](https://arxiv.org/abs/2607.04331) `2607.04331` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
+- **V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving**: (V2X): [Link](https://arxiv.org/abs/2609.37098)
+- **CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2609.34387)
+- **HelloWorld: Towards Practical Applications of Generative Driving World Models**: (World models): [Link](https://arxiv.org/abs/2609.28931)
+- **Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation**: (Simulation): [Link](https://arxiv.org/abs/2609.27296)
+- **GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2609.15169)
+- **SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving**: (World models): [Link](https://arxiv.org/abs/2609.03602)
+- **Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving**: (Surveys, VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2609.01659)
+- **Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2609.00111)
+- **Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving**: Orion-Lite: 0.1B vision-only student beats 7B teacher on Bench2Drive (VLA): [Link](https://arxiv.org/abs/2608.30144)
+- **Roadside-Cooperative Autonomous Driving: From Data Platform to Vision-Language End-to-End Reasoning**: (V2X): [Link](https://arxiv.org/abs/2608.21032)
+- **WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving**: (World models): [Link](https://arxiv.org/abs/2608.20974)
+- **Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms**: (Surveys, End-to-end, Benchmarks): [Link](https://arxiv.org/abs/2608.20111)
+- **CMU-Drive and V2V-VLA: Cooperative Multi-agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models**: (V2X): [Link](https://arxiv.org/abs/2608.07621)
+- **SimWAM: A Simple World Action Model for End-to-End Autonomous Driving**: (World models): [Link](https://arxiv.org/abs/2608.07468)
+- **DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing**: (Simulation): [Link](https://arxiv.org/abs/2608.01761)
+- **WAM-Diff2: Hierarchical AR-to-Diffusion Distillation for Highly Efficient Autonomous Driving VLA**: (VLA): [Link](https://arxiv.org/abs/2608.01035)
+- **WorkDrive: Roadwork Chain of Causation for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2607.14727)
+- **WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2607.08375)
+- **Point as Skeleton: Accumulated Point Cloud Enhanced Autoregressive Generation for Closed-Loop Autonomous Driving Simulation**: (World models): [Link](https://arxiv.org/abs/2607.06516)
+- **Benchmarking the Robustness of Autonomous Driving to Environmental Illusions: A Lane Perception Perspective**: (Safety): [Link](https://arxiv.org/abs/2607.05783)
+- **Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation**: (Simulation): [Link](https://arxiv.org/abs/2607.04770)
+- **Agent-driven Long-tail Simulation for Autonomous Driving**: (Simulation): [Link](https://arxiv.org/abs/2607.04331)
 
 ## 2026 Q2
 
-| Paper | Topics | Note |
-|---|---|---|
-| [FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning](https://arxiv.org/abs/2606.24231) `2606.24231` | [End-to-End Driving](02-end-to-end.md) |  |
-| [DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model](https://arxiv.org/abs/2606.24051) `2606.24051` | [Vision-Language-Action](06-vla.md) |  |
-| [GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving](https://arxiv.org/abs/2606.16274) `2606.16274` | [World Models](08-world-models.md) |  |
-| [Multi-Agent Embodied Autonomous Driving (MAEAD): From V2X Information Exchange to Shared World Models](https://arxiv.org/abs/2606.13840) `2606.13840` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving](https://arxiv.org/abs/2606.12706) `2606.12706` | [Reasoning, RL](07-reasoning-rl.md), [Benchmarks](11-benchmarks.md) |  |
-| [VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving](https://arxiv.org/abs/2606.12396) `2606.12396` | [Vision-Language-Action](06-vla.md) |  |
-| [Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving](https://arxiv.org/abs/2606.11019) `2606.11019` | [End-to-End Driving](02-end-to-end.md) |  |
-| [BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2606.08684) `2606.08684` | [Vision-Language-Action](06-vla.md) |  |
-| [DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving](https://arxiv.org/abs/2606.08525) `2606.08525` | [Reasoning, RL](07-reasoning-rl.md), [Datasets](10-datasets.md) |  |
-| [The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset](https://arxiv.org/abs/2606.02956) `2606.02956` | [Datasets](10-datasets.md) |  |
-| [nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving](https://arxiv.org/abs/2605.31572) `2605.31572` | [Datasets](10-datasets.md), [Benchmarks](11-benchmarks.md) |  |
-| [NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving](https://arxiv.org/abs/2605.31116) `2605.31116` | [End-to-End Driving](02-end-to-end.md) |  |
-| [ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2605.29114) `2605.29114` | [Safety, Robustness](12-safety-robustness.md) | Slowdown / premature-termination attacks on CoT |
-| [DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving](https://arxiv.org/abs/2605.28544) `2605.28544` | [World Models](08-world-models.md) |  |
-| [TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving](https://arxiv.org/abs/2605.27038) `2605.27038` | [Vision-Language-Action](06-vla.md) |  |
-| [ChainFlow-VLA: Causal Flow Planning with Vision-Language Models](https://arxiv.org/abs/2605.23270) `2605.23270` | [Vision-Language-Action](06-vla.md) | Reports 94.85 on NAVSIM v1, human-level 94.8 |
-| [Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving](https://arxiv.org/abs/2605.23163) `2605.23163` | [Vision-Language-Action](06-vla.md) | 200+ tok/s on one H100; WOD-E2E |
-| [Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation](https://arxiv.org/abs/2605.21032) `2605.21032` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations](https://arxiv.org/abs/2605.18059) `2605.18059` | [Benchmarks](11-benchmarks.md), [Safety, Robustness](12-safety-robustness.md) |  |
-| [HorizonDrive: Self-Corrective Autoregressive World Model for Long-horizon Driving Simulation](https://arxiv.org/abs/2605.11596) `2605.11596` | [World Models](08-world-models.md) |  |
-| [ConFixGS: Learning to Fix Feedforward 3D Gaussian Splatting with Confidence-Aware Diffusion Priors in Driving Scenes](https://arxiv.org/abs/2605.09688) `2605.09688` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving](https://arxiv.org/abs/2605.00880) `2605.00880` | [Safety, Robustness](12-safety-robustness.md) |  |
-| [Do Open-Loop Metrics Predict Closed-Loop Driving? A Cross-Benchmark Correlation Study of NAVSIM and Bench2Drive](https://arxiv.org/abs/2605.00066) `2605.00066` | [Benchmarks](11-benchmarks.md) |  |
-| [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775) `2604.23775` | [Surveys](01-surveys.md), [Vision-Language-Action](06-vla.md), [Safety, Robustness](12-safety-robustness.md) |  |
-| [RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework](https://arxiv.org/abs/2604.15308) `2604.15308` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving](https://arxiv.org/abs/2604.12656) `2604.12656` | [End-to-End Driving](02-end-to-end.md) |  |
-| [Learning Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2604.09059) `2604.09059` | [Vision-Language-Action](06-vla.md), [World Models](08-world-models.md) | VLA-World: pretrain, SFT, GRPO |
-| [Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models](https://arxiv.org/abs/2604.01259) `2604.01259` | [Benchmarks](11-benchmarks.md) |  |
+- **FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning**: (End-to-end): [Link](https://arxiv.org/abs/2606.24231)
+- **DriveStack-VLA: Render-Teacher Alignment for BEV-Based DeepStack Vision-Language-Action Model**: (VLA): [Link](https://arxiv.org/abs/2606.24051)
+- **GraphWorld: Long-Horizon Planning with World Models for End-to-End Autonomous Driving**: (World models): [Link](https://arxiv.org/abs/2606.16274)
+- **Multi-Agent Embodied Autonomous Driving (MAEAD): From V2X Information Exchange to Shared World Models**: (V2X): [Link](https://arxiv.org/abs/2606.13840)
+- **VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving**: (Reasoning/RL, Benchmarks): [Link](https://arxiv.org/abs/2606.12706)
+- **VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2606.12396)
+- **Diffusion Forcing Planner: History-Annealed Planning with Time-Dependent Guidance for Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2606.11019)
+- **BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2606.08684)
+- **DriveReward: A Comprehensive Dataset and Generative Vision-Language Reward Model for Autonomous Driving**: (Reasoning/RL, Datasets): [Link](https://arxiv.org/abs/2606.08525)
+- **The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset**: (Datasets): [Link](https://arxiv.org/abs/2606.02956)
+- **nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving**: (Datasets, Benchmarks): [Link](https://arxiv.org/abs/2605.31572)
+- **NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving**: (End-to-end): [Link](https://arxiv.org/abs/2605.31116)
+- **ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving**: Slowdown / premature-termination attacks on CoT (Safety): [Link](https://arxiv.org/abs/2605.29114)
+- **DriveWAM: Video Generative Priors Enable Scalable World-Action Modeling for Autonomous Driving**: (World models): [Link](https://arxiv.org/abs/2605.28544)
+- **TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2605.27038)
+- **ChainFlow-VLA: Causal Flow Planning with Vision-Language Models**: Reports 94.85 on NAVSIM v1, human-level 94.8 (VLA): [Link](https://arxiv.org/abs/2605.23270)
+- **Fast-dDrive: Efficient Block-Diffusion VLM for Autonomous Driving**: 200+ tok/s on one H100; WOD-E2E (VLA): [Link](https://arxiv.org/abs/2605.23163)
+- **Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation**: (Simulation): [Link](https://arxiv.org/abs/2605.21032)
+- **Bench2Drive-Robust: Benchmarking Closed-Loop Autonomous Driving under Deployment Perturbations**: (Benchmarks, Safety): [Link](https://arxiv.org/abs/2605.18059)
+- **HorizonDrive: Self-Corrective Autoregressive World Model for Long-horizon Driving Simulation**: (World models): [Link](https://arxiv.org/abs/2605.11596)
+- **ConFixGS: Learning to Fix Feedforward 3D Gaussian Splatting with Confidence-Aware Diffusion Priors in Driving Scenes**: (Simulation): [Link](https://arxiv.org/abs/2605.09688)
+- **Adversarial Flow Matching for Imperceptible Attacks on End-to-End Autonomous Driving**: (Safety): [Link](https://arxiv.org/abs/2605.00880)
+- **Do Open-Loop Metrics Predict Closed-Loop Driving? A Cross-Benchmark Correlation Study of NAVSIM and Bench2Drive**: (Benchmarks): [Link](https://arxiv.org/abs/2605.00066)
+- **Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms**: (Surveys, VLA, Safety): [Link](https://arxiv.org/abs/2604.23775)
+- **RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2604.15308)
+- **FeaXDrive: Feasibility-aware Trajectory-Centric Diffusion Planning for End-to-End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2604.12656)
+- **Learning Vision-Language-Action World Models for Autonomous Driving**: VLA-World: pretrain, SFT, GRPO (VLA, World models): [Link](https://arxiv.org/abs/2604.09059)
+- **Bench2Drive-VL: Benchmarks for Closed-Loop Autonomous Driving with Vision-Language Models**: (Benchmarks): [Link](https://arxiv.org/abs/2604.01259) - [Code](https://github.com/Thinklab-SJTU/Bench2Drive-VL)
 
 ## 2026 Q1
 
-| Paper | Topics | Note |
-|---|---|---|
-| [ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766) `2603.25766` | [Vision-Language-Action](06-vla.md) |  |
-| [DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving](https://arxiv.org/abs/2603.24587) `2603.24587` | [Reasoning, RL](07-reasoning-rl.md), [World Models](08-world-models.md) |  |
-| [AUTOMOT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.14851) `2603.14851` | [Vision-Language-Action](06-vla.md) |  |
-| [A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms](https://arxiv.org/abs/2603.11093) `2603.11093` | [Surveys](01-surveys.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [Safety-Centered Scenario Generation for Autonomous Vehicles](https://arxiv.org/abs/2603.03574) `2603.03574` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2602.13329) `2602.13329` | [Vision-Language-Action](06-vla.md) |  |
-| [SteerVLA: Steering Vision-Language-Action Models in Long-Tail Driving Scenarios](https://arxiv.org/abs/2602.08440) `2602.08440` | [Vision-Language-Action](06-vla.md) |  |
-| [Drive-KD: Multi-Teacher Distillation for VLMs in Autonomous Driving](https://arxiv.org/abs/2601.21288) `2601.21288` | [Vision-Language-Action](06-vla.md) |  |
-| [DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration](https://arxiv.org/abs/2601.15260) `2601.15260` | [Datasets](10-datasets.md) |  |
-| [SparseOccVLA: Bridging Occupancy and Vision-Language Models via Sparse Queries for Unified 4D Scene Understanding and Planning](https://arxiv.org/abs/2601.06474) `2601.06474` | [Vision-Language-Action](06-vla.md) |  |
-| [DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving](https://arxiv.org/abs/2601.01528) `2601.01528` | [World Models](08-world-models.md), [Benchmarks](11-benchmarks.md) |  |
+- **ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models**: (VLA): [Link](https://arxiv.org/abs/2603.25766)
+- **DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving**: (Reasoning/RL, World models): [Link](https://arxiv.org/abs/2603.24587)
+- **AUTOMOT: A Unified Vision-Language-Action Model with Asynchronous Mixture-of-Transformers for End-to-End Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2603.14851)
+- **A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging Paradigms**: (Surveys, Reasoning/RL): [Link](https://arxiv.org/abs/2603.11093)
+- **Safety-Centered Scenario Generation for Autonomous Vehicles**: (Simulation): [Link](https://arxiv.org/abs/2603.03574)
+- **HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2602.13329)
+- **SteerVLA: Steering Vision-Language-Action Models in Long-Tail Driving Scenarios**: (VLA): [Link](https://arxiv.org/abs/2602.08440)
+- **Drive-KD: Multi-Teacher Distillation for VLMs in Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2601.21288)
+- **DrivIng: A Large-Scale Multimodal Driving Dataset with Full Digital Twin Integration**: (Datasets): [Link](https://arxiv.org/abs/2601.15260) · *IV 2026*
+- **SparseOccVLA: Bridging Occupancy and Vision-Language Models via Sparse Queries for Unified 4D Scene Understanding and Planning**: (VLA): [Link](https://arxiv.org/abs/2601.06474)
+- **DrivingGen: A Comprehensive Benchmark for Generative Video World Models in Autonomous Driving**: (World models, Benchmarks): [Link](https://arxiv.org/abs/2601.01528)
 
 ## 2025 Q4
 
-| Paper | Topics | Note |
-|---|---|---|
-| [Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future](https://arxiv.org/abs/2512.16760) `2512.16760` | [Surveys](01-surveys.md) |  |
-| [OmniDrive-R1: Reinforcement-driven Interleaved Multi-modal Chain-of-Thought for Trustworthy Vision-Language Autonomous Driving](https://arxiv.org/abs/2512.14044) `2512.14044` | [Vision-Language-Action](06-vla.md) |  |
-| [MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning](https://arxiv.org/abs/2512.13636) `2512.13636` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning](https://arxiv.org/abs/2512.12799) `2512.12799` | [Vision-Language-Action](06-vla.md) |  |
-| [Latent Chain-of-Thought World Modeling for End-to-End Driving](https://arxiv.org/abs/2512.10226) `2512.10226` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching for Autonomous Driving](https://arxiv.org/abs/2512.06112) `2512.06112` | [End-to-End Driving](02-end-to-end.md) |  |
-| [CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving](https://arxiv.org/abs/2511.22532) `2511.22532` | [Vision-Language-Action](06-vla.md) |  |
-| [Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge](https://arxiv.org/abs/2511.20726) `2511.20726` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving](https://arxiv.org/abs/2511.18729) `2511.18729` | [End-to-End Driving](02-end-to-end.md) |  |
-| [DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving](https://arxiv.org/abs/2511.17150) `2511.17150` | [End-to-End Driving](02-end-to-end.md) |  |
-| [Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail](https://arxiv.org/abs/2511.00088) `2511.00088` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md), [Industry Systems](14-industry.md) | NVIDIA |
-| [Beyond Imitation: Constraint-Aware Trajectory Generation with Flow Matching For End-to-End Autonomous Driving](https://arxiv.org/abs/2510.26292) `2510.26292` | [End-to-End Driving](02-end-to-end.md) |  |
-| [WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios](https://arxiv.org/abs/2510.26125) `2510.26125` | [Datasets](10-datasets.md), [Benchmarks](11-benchmarks.md) | Waymo - 4,021 long-tail segments (~12h), 8 cameras, Rater Feedback Score (RFS) |
-| [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) `2510.16732` | [Surveys](01-surveys.md) | General embodied AI, includes driving |
-| [Vision-Centric 4D Occupancy Forecasting and Planning via Implicit Residual World Models](https://arxiv.org/abs/2510.16729) `2510.16729` | [World Models](08-world-models.md) |  |
-| [DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving](https://arxiv.org/abs/2510.12796) `2510.12796` | [Vision-Language-Action](06-vla.md) |  |
+- **Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future**: (Surveys): [Link](https://arxiv.org/abs/2512.16760)
+- **OmniDrive-R1: Reinforcement-driven Interleaved Multi-modal Chain-of-Thought for Trustworthy Vision-Language Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2512.14044)
+- **MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2512.13636)
+- **DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning**: (VLA): [Link](https://arxiv.org/abs/2512.12799)
+- **Latent Chain-of-Thought World Modeling for End-to-End Driving**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2512.10226)
+- **WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching for Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2512.06112)
+- **CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2511.22532)
+- **Learning from Risk: LLM-Guided Generation of Safety-Critical Scenarios with Prior Knowledge**: (Simulation): [Link](https://arxiv.org/abs/2511.20726)
+- **GuideFlow: Constraint-Guided Flow Matching for Planning in End-to-End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2511.18729)
+- **DiffRefiner: Coarse to Fine Trajectory Planning via Diffusion Refinement with Semantic Interaction for End to End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2511.17150)
+- **Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail**: NVIDIA (VLA, Reasoning/RL, Industry): [Link](https://arxiv.org/abs/2511.00088)
+- **Beyond Imitation: Constraint-Aware Trajectory Generation with Flow Matching For End-to-End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2510.26292)
+- **WOD-E2E: Waymo Open Dataset for End-to-End Driving in Challenging Long-tail Scenarios**: Waymo - 4,021 long-tail segments (~12h), 8 cameras, Rater Feedback Score (RFS) (Datasets, Benchmarks): [Link](https://arxiv.org/abs/2510.26125)
+- **A Comprehensive Survey on World Models for Embodied AI**: General embodied AI, includes driving (Surveys): [Link](https://arxiv.org/abs/2510.16732)
+- **Vision-Centric 4D Occupancy Forecasting and Planning via Implicit Residual World Models**: (World models): [Link](https://arxiv.org/abs/2510.16729)
+- **DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2510.12796)
 
 ## 2025 Q3
 
-| Paper | Topics | Note |
-|---|---|---|
-| [DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation](https://arxiv.org/abs/2509.23922) `2509.23922` | [Simulators, Neural Reconstruction](09-simulation.md), [Benchmarks](11-benchmarks.md) |  |
-| [FlowDrive: moderated flow matching with data balancing for trajectory planning](https://arxiv.org/abs/2509.21961) `2509.21961` | [End-to-End Driving](02-end-to-end.md) |  |
-| [Perception in Plan: Coupled Perception and Planning for End-to-End Autonomous Driving](https://arxiv.org/abs/2508.11488) `2508.11488` | [End-to-End Driving](02-end-to-end.md) |  |
-| [Research Challenges and Progress in the End-to-End V2X Cooperative Autonomous Driving Competition](https://arxiv.org/abs/2507.21610) `2507.21610` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting](https://arxiv.org/abs/2507.19451) `2507.19451` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [LaViPlan: Language-Guided Visual Path Planning with RLVR](https://arxiv.org/abs/2507.12911) `2507.12911` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) | RL with verifiable rewards |
+- **DriveE2E: Closed-Loop Benchmark for End-to-End Autonomous Driving through Real-to-Simulation**: (Simulation, Benchmarks): [Link](https://arxiv.org/abs/2509.23922)
+- **FlowDrive: moderated flow matching with data balancing for trajectory planning**: (End-to-end): [Link](https://arxiv.org/abs/2509.21961)
+- **Perception in Plan: Coupled Perception and Planning for End-to-End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2508.11488)
+- **Research Challenges and Progress in the End-to-End V2X Cooperative Autonomous Driving Competition**: (V2X): [Link](https://arxiv.org/abs/2507.21610)
+- **GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting**: (Simulation): [Link](https://arxiv.org/abs/2507.19451)
+- **LaViPlan: Language-Guided Visual Path Planning with RLVR**: RL with verifiable rewards (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2507.12911)
 
 ## 2025 Q2
 
-| Paper | Topics | Note |
-|---|---|---|
-| [Epona: Autoregressive Diffusion World Model for Autonomous Driving](https://arxiv.org/abs/2506.24113) `2506.24113` | [Vision-Language-Action](06-vla.md), [World Models](08-world-models.md) |  |
-| [A Survey on Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2506.24044) `2506.24044` | [Surveys](01-surveys.md), [Vision-Language-Action](06-vla.md) |  |
-| [SEAL: Vision-Language Model-Based Safe End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling](https://arxiv.org/abs/2506.21041) `2506.21041` | [Cooperative Driving](13-cooperative-v2x.md) | Earlier title V2X-REALM |
-| [Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning](https://arxiv.org/abs/2506.18234) `2506.18234` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.13757) `2506.13757` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [COME: Adding Scene-Centric Forecasting Control to Occupancy World Model](https://arxiv.org/abs/2506.13260) `2506.13260` | [World Models](08-world-models.md) |  |
-| [Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis](https://arxiv.org/abs/2506.11526) `2506.11526` | [Surveys](01-surveys.md), [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [Poutine: Vision-Language-Trajectory Pre-Training and Reinforcement Learning Post-Training Enable Robust End-to-End Autonomous Driving](https://arxiv.org/abs/2506.11234) `2506.11234` | [Vision-Language-Action](06-vla.md) | Waymo Open E2E challenge winner |
-| [Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models](https://arxiv.org/abs/2506.09042) `2506.09042` | [World Models](08-world-models.md) | NVIDIA |
-| [ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving](https://arxiv.org/abs/2506.08052) `2506.08052` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [Pseudo-Simulation for Autonomous Driving](https://arxiv.org/abs/2506.04218) `2506.04218` | [Benchmarks](11-benchmarks.md) | NAVSIM v2 / EPDMS |
-| [Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models](https://arxiv.org/abs/2505.23757) `2505.23757` | [Vision-Language-Action](06-vla.md) |  |
-| [DiffVLA: Vision-Language Guided Diffusion Planning for Autonomous Driving](https://arxiv.org/abs/2505.19381) `2505.19381` | [Vision-Language-Action](06-vla.md) |  |
-| [FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving](https://arxiv.org/abs/2505.17685) `2505.17685` | [Vision-Language-Action](06-vla.md) | FSDrive; visual CoT |
-| [DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving](https://arxiv.org/abs/2505.16278) `2505.16278` | [Vision-Language-Action](06-vla.md) |  |
-| [iPad: Iterative Proposal-centric End-to-End Autonomous Driving](https://arxiv.org/abs/2505.15111) `2505.15111` | [End-to-End Driving](02-end-to-end.md) |  |
-| [Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models](https://arxiv.org/abs/2505.00972) `2505.00972` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [LightEMMA: Lightweight End-to-End Multimodal Model for Autonomous Driving](https://arxiv.org/abs/2505.00284) `2505.00284` | [Vision-Language-Action](06-vla.md) |  |
-| [CaRL: Learning Scalable Planning Policies with Simple Rewards](https://arxiv.org/abs/2504.17838) `2504.17838` | [Reasoning, RL](07-reasoning-rl.md) | Simple route-completion reward scales |
-| [LangCoop: Collaborative Driving with Language](https://arxiv.org/abs/2504.13406) `2504.13406` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [Foundation Models for Autonomous Driving Systems: An Initial Roadmap](https://arxiv.org/abs/2504.00911) `2504.00911` | [Surveys](01-surveys.md) |  |
+- **Epona: Autoregressive Diffusion World Model for Autonomous Driving**: (VLA, World models): [Link](https://arxiv.org/abs/2506.24113) · *ICCV 2025*
+- **A Survey on Vision-Language-Action Models for Autonomous Driving**: (Surveys, VLA): [Link](https://arxiv.org/abs/2506.24044) · *ICCV-W 2025*
+- **SEAL: Vision-Language Model-Based Safe End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling**: Earlier title V2X-REALM (V2X): [Link](https://arxiv.org/abs/2506.21041)
+- **Drive-R1: Bridging Reasoning and Planning in VLMs for Autonomous Driving with Reinforcement Learning**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2506.18234)
+- **AutoVLA: A Vision-Language-Action Model for End-to-End Autonomous Driving with Adaptive Reasoning and Reinforcement Fine-Tuning**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2506.13757)
+- **COME: Adding Scene-Centric Forecasting Control to Occupancy World Model**: (World models): [Link](https://arxiv.org/abs/2506.13260)
+- **Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis**: (Surveys, Simulation): [Link](https://arxiv.org/abs/2506.11526)
+- **Poutine: Vision-Language-Trajectory Pre-Training and Reinforcement Learning Post-Training Enable Robust End-to-End Autonomous Driving**: Waymo Open E2E challenge winner (VLA): [Link](https://arxiv.org/abs/2506.11234)
+- **Cosmos-Drive-Dreams: Scalable Synthetic Driving Data Generation with World Foundation Models**: NVIDIA (World models): [Link](https://arxiv.org/abs/2506.09042)
+- **ReCogDrive: A Reinforced Cognitive Framework for End-to-End Autonomous Driving**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2506.08052)
+- **Pseudo-Simulation for Autonomous Driving**: NAVSIM v2 / EPDMS (Benchmarks): [Link](https://arxiv.org/abs/2506.04218) · *CoRL 2025*
+- **Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models**: (VLA): [Link](https://arxiv.org/abs/2505.23757)
+- **DiffVLA: Vision-Language Guided Diffusion Planning for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2505.19381)
+- **FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving**: FSDrive; visual CoT (VLA): [Link](https://arxiv.org/abs/2505.17685)
+- **DriveMoE: Mixture-of-Experts for Vision-Language-Action Model in End-to-End Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2505.16278)
+- **iPad: Iterative Proposal-centric End-to-End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2505.15111)
+- **Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models**: (Simulation): [Link](https://arxiv.org/abs/2505.00972)
+- **LightEMMA: Lightweight End-to-End Multimodal Model for Autonomous Driving**: (VLA): [Link](https://arxiv.org/abs/2505.00284)
+- **CaRL: Learning Scalable Planning Policies with Simple Rewards**: Simple route-completion reward scales (Reasoning/RL): [Link](https://arxiv.org/abs/2504.17838) · *CoRL 2025*
+- **LangCoop: Collaborative Driving with Language**: (V2X): [Link](https://arxiv.org/abs/2504.13406)
+- **Foundation Models for Autonomous Driving Systems: An Initial Roadmap**: (Surveys): [Link](https://arxiv.org/abs/2504.00911)
 
 ## 2025 Q1
 
-| Paper | Topics | Note |
-|---|---|---|
-| [OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model](https://arxiv.org/abs/2503.23463) `2503.23463` | [Vision-Language-Action](06-vla.md) |  |
-| [GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving](https://arxiv.org/abs/2503.20523) `2503.20523` | [World Models](08-world-models.md), [Industry Systems](14-industry.md) | Wayve |
-| [ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation](https://arxiv.org/abs/2503.19755) `2503.19755` | [Vision-Language-Action](06-vla.md) | Bench2Drive SOTA at release |
-| [SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment](https://arxiv.org/abs/2503.09594) `2503.09594` | [Vision-Language-Action](06-vla.md) | CARLA Leaderboard 2.0 |
-| [CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving](https://arxiv.org/abs/2503.08683) `2503.08683` | [Cooperative Driving](13-cooperative-v2x.md) |  |
-| [AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via Reinforcement Learning and Reasoning](https://arxiv.org/abs/2503.07608) `2503.07608` | [Vision-Language-Action](06-vla.md), [Reasoning, RL](07-reasoning-rl.md) |  |
-| [GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving](https://arxiv.org/abs/2503.05689) `2503.05689` | [End-to-End Driving](02-end-to-end.md) |  |
-| [RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning](https://arxiv.org/abs/2502.13144) `2502.13144` | [Reasoning, RL](07-reasoning-rl.md) | RL in a Gaussian-splat digital twin |
-| [The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2502.10498) `2502.10498` | [Surveys](01-surveys.md) |  |
-| [From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios](https://arxiv.org/abs/2502.02145) `2502.02145` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [LLM-attacker: Enhancing Closed-loop Adversarial Scenario Generation for Autonomous Driving with Large Language Models](https://arxiv.org/abs/2501.15850) `2501.15850` | [Simulators, Neural Reconstruction](09-simulation.md) |  |
-| [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](https://arxiv.org/abs/2501.15564) `2501.15564` | [End-to-End Driving](02-end-to-end.md), [Prediction](04-prediction-planning.md) | Diffusion Planner |
-| [A Survey of World Models for Autonomous Driving](https://arxiv.org/abs/2501.11260) `2501.11260` | [Surveys](01-surveys.md) |  |
-| [Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data, and Metric Perspectives](https://arxiv.org/abs/2501.04003) `2501.04003` | [Benchmarks](11-benchmarks.md), [Safety, Robustness](12-safety-robustness.md) | DriveBench |
-| [Cosmos World Foundation Model Platform for Physical AI](https://arxiv.org/abs/2501.03575) `2501.03575` | [World Models](08-world-models.md), [Industry Systems](14-industry.md) | NVIDIA |
+- **OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model**: (VLA): [Link](https://arxiv.org/abs/2503.23463)
+- **GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving**: Wayve (World models, Industry): [Link](https://arxiv.org/abs/2503.20523)
+- **ORION: A Holistic End-to-End Autonomous Driving Framework by Vision-Language Instructed Action Generation**: Bench2Drive SOTA at release (VLA): [Link](https://arxiv.org/abs/2503.19755)
+- **SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment**: CARLA Leaderboard 2.0 (VLA): [Link](https://arxiv.org/abs/2503.09594) · *CVPR 2025*
+- **CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving**: (V2X): [Link](https://arxiv.org/abs/2503.08683)
+- **AlphaDrive: Unleashing the Power of VLMs in Autonomous Driving via Reinforcement Learning and Reasoning**: (VLA, Reasoning/RL): [Link](https://arxiv.org/abs/2503.07608)
+- **GoalFlow: Goal-Driven Flow Matching for Multimodal Trajectories Generation in End-to-End Autonomous Driving**: (End-to-end): [Link](https://arxiv.org/abs/2503.05689) · *CVPR 2025*
+- **RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning**: RL in a Gaussian-splat digital twin (Reasoning/RL): [Link](https://arxiv.org/abs/2502.13144)
+- **The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey**: (Surveys): [Link](https://arxiv.org/abs/2502.10498)
+- **From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios**: (Simulation): [Link](https://arxiv.org/abs/2502.02145)
+- **LLM-attacker: Enhancing Closed-loop Adversarial Scenario Generation for Autonomous Driving with Large Language Models**: (Simulation): [Link](https://arxiv.org/abs/2501.15850)
+- **Diffusion-Based Planning for Autonomous Driving with Flexible Guidance**: Diffusion Planner (End-to-end, Planning): [Link](https://arxiv.org/abs/2501.15564) · *ICLR 2025*
+- **A Survey of World Models for Autonomous Driving**: (Surveys): [Link](https://arxiv.org/abs/2501.11260)
+- **Are VLMs Ready for Autonomous Driving? An Empirical Study from the Reliability, Data, and Metric Perspectives**: DriveBench (Benchmarks, Safety): [Link](https://arxiv.org/abs/2501.04003)
+- **Cosmos World Foundation Model Platform for Physical AI**: NVIDIA (World models, Industry): [Link](https://arxiv.org/abs/2501.03575) - [Code](https://github.com/NVIDIA/Cosmos)

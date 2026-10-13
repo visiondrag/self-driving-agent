@@ -18,3 +18,8 @@ A paper may appear in several topics when it genuinely belongs to each (e.g. EMM
 
 Inclusion bar: peer-reviewed, widely cited, released code/data, a strong benchmark result, or a clear new idea.
 Recent arXiv-only papers are welcome if they meet one of those.
+
+## Website
+The site (GitHub Pages) is built from the same files: `python website/build.py` writes `_site/` and fails on a broken internal link or anchor.
+Pages generated from `data/*.yaml` must not be edited by hand. Hand-written pages are `docs/learning.md`, `tools.md`, `competitions.md` and `organizations.md`; use one line per item in the form `- **Name**: what it is: [Link](url)`.
+Colors and layout live in `website/static/style.css`; the hero image is regenerated with `python scripts/make_banner.py`.

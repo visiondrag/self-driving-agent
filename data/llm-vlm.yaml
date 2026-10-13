@@ -3,7 +3,7 @@ title: LLM / VLM for Driving
 summary: Language and vision-language models as drivers, planners, explainers, and QA systems (pre-action-head era).
 intro: |
   Approaches that use (multimodal) LLMs for driving decisions, explanation, or scene understanding.
-  Models that output trajectories/actions end-to-end from a VLM backbone live in [VLA](06-vla.md).
+  Models that output trajectories/actions end-to-end from a VLM backbone live in [VLA](vla.md).
 sections:
   - name: LLM as Planner / Decision Maker
     papers:
